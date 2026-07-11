@@ -21,8 +21,8 @@ IMAGE_JPEG_QUALITY = 75
 MAX_CHUNK_CHARS = 200
 RAG_TOP_K_IMAGE = 1
 OLLAMA_KEEP_ALIVE = "30m"
-IMAGE_CALL_TIMEOUT = 40
-TEXT_CALL_TIMEOUT = 25
+IMAGE_CALL_TIMEOUT = 90
+TEXT_CALL_TIMEOUT = 90
 
 
 def _optimize_image_b64(image_b64: str, max_size: int = MAX_IMAGE_SIDE) -> str:
@@ -297,7 +297,9 @@ class MedGemmaQA:
             "## Patient Precautions\n"
             "Do not rely on this AI output. Seek immediate care for worsening symptoms.\n\n"
             "## Diet & Nutrition\n"
+            "Maintain a balanced diet rich in protein, fruits, and vegetables to support general health and recovery. Specific clinical dietary recommendations depend on the final medical diagnosis.\n\n"
             "## Medications & Treatment\n"
+            "Medication regimens and treatment plans must be customized by an oncologist or general physician. Do not start or modify any clinical treatments without a prescription.\n\n"
             "## Clinical Follow-up\n"
             "Formal radiologist read required before any clinical decision.\n\n"
             "---\n**Retrieved medical context:**\n"
@@ -360,15 +362,8 @@ class MedGemmaQA:
         care_report, err = self._single_pass_image_report(
             question, image_b64, context_str, annotation_hint
         )
-        if err == "timeout":
-            logger.warning("Single-pass timed out — trying fast vision + RAG fallback")
-            fallback_used = True
-            vision_summary, _ = self._fast_vision_only(image_b64, annotation_hint)
-            care_report = self._rag_fallback_report(
-                question, context_str, annotation_hint, vision_summary
-            )
-        elif err or not care_report:
-            logger.warning("Single-pass failed (%s) — RAG fallback", err)
+        if err or not care_report:
+            logger.warning("Single-pass failed/timed out (%s) — RAG fallback", err)
             fallback_used = True
             care_report = self._rag_fallback_report(
                 question, context_str, annotation_hint, None

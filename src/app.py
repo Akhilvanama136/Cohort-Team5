@@ -1637,12 +1637,15 @@ def main_app():
             st.session_state.last_report_name = None
 
         trigger_analysis = False
+        if "query_in_progress" not in st.session_state:
+            st.session_state.query_in_progress = False
 
         if uploaded_image:
             if uploaded_image.name != st.session_state.last_image_name:
                 st.session_state.last_image_name = uploaded_image.name
                 st.session_state.active_response = None  # Reset response for new file
-                trigger_analysis = True
+                if not st.session_state.query_in_progress:
+                    trigger_analysis = True
             st.success(f"📸 Medical image '{uploaded_image.name}' uploaded successfully!")
             st.image(uploaded_image, caption="Uploaded medical scan for analysis", width=300)
             st.caption(
@@ -1672,7 +1675,8 @@ def main_app():
             if uploaded_report.name != st.session_state.last_report_name:
                 st.session_state.last_report_name = uploaded_report.name
                 st.session_state.active_response = None  # Reset response for new file
-                trigger_analysis = True
+                if not st.session_state.query_in_progress:
+                    trigger_analysis = True
             
             report_text = _extract_report_text(uploaded_report)
             if report_text:
@@ -1694,9 +1698,10 @@ def main_app():
             category_selection = st.selectbox("Disease Filtering Category (RAG scope):", category_options, index=default_idx)
         
         send_clicked = st.button("Send Query", key="send_chat_query", use_container_width=True, type="primary")
-        auto_trigger = chat_q and not st.session_state.active_response and q_val == chat_q
+        auto_trigger = chat_q and not st.session_state.active_response and q_val == chat_q and not st.session_state.query_in_progress
  
         if send_clicked or auto_trigger or trigger_analysis:
+            st.session_state.query_in_progress = True
             query_text = chat_q.strip()
             if uploaded_image is not None and not query_text:
                 query_text = (
@@ -1734,7 +1739,7 @@ def main_app():
                                 files=files,
                                 data=data,
                                 headers=headers,
-                                timeout=180,
+                                timeout=240,
                             )
                             if r.status_code == 200:
                                 res = r.json()
@@ -1747,14 +1752,19 @@ def main_app():
                                     "requires_radiologist_review", True
                                 )
                                 st.session_state.imaging_confidence = res.get("imaging_confidence", "low")
+                                st.session_state.query_in_progress = False
+                                st.rerun()
                             else:
+                                st.session_state.query_in_progress = False
                                 st.error(f"Image analysis server error: {r.text}")
                         except requests.exceptions.Timeout:
+                            st.session_state.query_in_progress = False
                             st.error(
-                                "Request timed out after 3 minutes. Keep Ollama running (`ollama serve`). "
+                                "Request timed out after 4 minutes. Keep Ollama running (`ollama serve`). "
                                 "Try a text-only query with Cancer Only selected — RAG answers are faster."
                             )
                         except Exception as e:
+                            st.session_state.query_in_progress = False
                             st.error(f"Failed to communicate with image API: {e}")
                 else:
                     # Include uploaded report text in the query if present
@@ -1770,18 +1780,23 @@ def main_app():
                             
                         start_time = time.time()
                         try:
-                            r = requests.post(f"{API_URL}/query", json=payload, headers=headers, timeout=120)
+                            r = requests.post(f"{API_URL}/query", json=payload, headers=headers, timeout=180)
                             if r.status_code == 200:
                                 res = r.json()
                                 st.session_state.active_response = res["answer"]
                                 st.session_state.active_sources = res["sources"]
                                 st.session_state.active_time = res["response_time_sec"]
                                 st.session_state.active_question = query_text
+                                st.session_state.query_in_progress = False
+                                st.rerun()
                             else:
+                                st.session_state.query_in_progress = False
                                 st.error(f"Backend Server error: {r.text}")
                         except requests.exceptions.Timeout:
+                            st.session_state.query_in_progress = False
                             st.error("Query timed out. Ensure Ollama is running and try again.")
                         except Exception as e:
+                            st.session_state.query_in_progress = False
                             st.error(f"Failed to communicate with API: {e}")
             elif send_clicked:
                 st.warning("Enter a question or upload an image to analyze.")
@@ -1812,24 +1827,12 @@ def main_app():
                             for flag in st.session_state.image_safety_flags:
                                 st.error(flag)
  
-                    st.checkbox(
-                        "I have visually reviewed the uploaded image and understand the AI report may be wrong",
-                        key="image_human_review_ack",
-                        value=False,
-                    )
- 
                 st.markdown(
-                    """
-                    <div class="ai-response-card">
-                        <h3 style="margin-top:0;color:#0D9488;">AI Response</h3>
-                    </div>
-                    """,
+                    '<div class="ai-response-card"><h3 style="margin-top:0;color:#0D9488;">AI Response</h3>',
                     unsafe_allow_html=True,
                 )
-                if is_image_response and not st.session_state.get("image_human_review_ack"):
-                    st.info("Check the confirmation box above to view the AI-generated care report.")
-                else:
-                    st.markdown(st.session_state.active_response)
+                st.markdown(st.session_state.active_response)
+                st.markdown('</div>', unsafe_allow_html=True)
                 st.markdown(
                     f"""
                     <div style="margin-top:1rem;font-size:0.8rem;color:#94A3B8;border-top:1px solid #F1F5F9;padding-top:1rem;">

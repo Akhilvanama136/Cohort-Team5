@@ -566,9 +566,29 @@ CUSTOM_CSS = """
         padding: 0.85rem 1.25rem;
         font-weight: 600;
         background: #FAFBFC;
+        color: #0F172A !important;
+    }
+    div[data-testid="stExpander"] > details > summary p {
+        color: #0F172A !important;
+    }
+    div[data-testid="stExpander"] > details > summary span {
+        color: #0F172A !important;
+    }
+    div[data-testid="stExpander"] > details > summary svg {
+        fill: #0F172A !important;
     }
     div[data-testid="stExpander"] > details > div {
         padding: 1.25rem;
+        color: #1E293B !important;
+    }
+    div[data-testid="stExpander"] > details > div p {
+        color: #1E293B !important;
+    }
+    div[data-testid="stExpander"] > details > div span {
+        color: #1E293B !important;
+    }
+    div[data-testid="stExpander"] > details > div label {
+        color: #1E293B !important;
     }
     
     /* ========== INPUT STYLING ========== */
@@ -1498,14 +1518,14 @@ def main_app():
             if st.button("What is diabetic nephropathy?", key="eq1", use_container_width=True):
                 navigate_to_qa("What is diabetic nephropathy?", "diabetes")
         with eq_col2:
-            if st.button("Explain TNM staging in cancer", key="eq2", use_container_width=True):
-                navigate_to_qa("Explain TNM staging in cancer", "cancer")
+            if st.button("What is breast cancer pathology?", key="eq2", use_container_width=True):
+                navigate_to_qa("What is breast cancer pathology?", "cancer")
         with eq_col3:
             if st.button("What are causes of insulin resistance?", key="eq3", use_container_width=True):
                 navigate_to_qa("What are the causes of insulin resistance?", "diabetes")
         with eq_col4:
-            if st.button("Biomarkers in breast cancer", key="eq4", use_container_width=True):
-                navigate_to_qa("What are the main biomarkers in breast cancer?", "cancer")
+            if st.button("Chemotherapy mechanisms in cancer", key="eq4", use_container_width=True):
+                navigate_to_qa("Describe chemotherapy mechanisms targeting rapidly dividing tumor cells.", "cancer")
         
         st.markdown("<div style='height: 1.5rem;'></div>", unsafe_allow_html=True)
         
@@ -1930,24 +1950,22 @@ def main_app():
         """, unsafe_allow_html=True)
         
         st.markdown('<div class="page-header">Cancer Pathology Center</div>', unsafe_allow_html=True)
-        st.markdown('<div class="page-subtitle">Explore cancer types, pathology, staging, biomarkers and treatment</div>', unsafe_allow_html=True)
+        st.markdown('<div class="page-subtitle">Explore cancer types, pathology, histopathology and treatment</div>', unsafe_allow_html=True)
         
         # Grid of 8 Cards (4 columns x 2 rows)
         grid_data = [
-            ("Breast Cancer", "Pathology, staging, hormonal receptors (ER/PR), and biomarkers (HER2).", "🎀", "What is the clinical role of HER2, ER, and PR in breast cancer prognosis?"),
+            ("Breast Cancer", "Pathology, hormonal receptors (ER/PR), and HER2 role in prognosis.", "🎀", "What is the clinical role of HER2, ER, and PR in breast cancer prognosis?"),
             ("Lung Cancer", "Classifications: Non-Small Cell (NSCLC) vs Small Cell (SCLC) pathology.", "🫁", "What are key histopathological differences between SCLC and adenocarcinoma of the lung?"),
             ("Colorectal Cancer", "Pathology of adenomas, adenocarcinoma progression, and genetic factors.", "🧬", "Explain the adenoma-carcinoma sequence pathway in colon cancer."),
             ("Prostate Cancer", "Gleason grading system, clinical features, and adenocarcinoma staging.", "🩺", "Describe the Gleason scoring criteria for staging prostate carcinoma."),
             ("Histopathology", "Tissue biopsy examination, staining techniques, cell morphology analysis.", "🔬", "Explain hematoxylin and eosin (H&E) staining significance in cancer pathology."),
-            ("TNM Staging", "Staging system details: Primary Tumor (T), Nodes (N), Metastasis (M).", "📊", "Explain how TNM staging defines cancer stage groups."),
-            ("Biomarkers", "Oncogenes, tumor suppressors, liquid biopsies, and diagnostic proteins.", "🧪", "What is the difference between prognostic and predictive biomarkers in oncology?"),
             ("Treatment Overview", "Pathology-guided systemic therapies, radiation oncology, and surgery.", "💉", "Describe chemotherapy mechanisms targeting rapidly dividing tumor cells.")
         ]
         
         # Row 1
-        col1, col2, col3, col4 = st.columns(4)
-        cols_row1 = [col1, col2, col3, col4]
-        for idx in range(4):
+        col1, col2, col3 = st.columns(3)
+        cols_row1 = [col1, col2, col3]
+        for idx in range(3):
             title, desc, icon, query = grid_data[idx]
             with cols_row1[idx]:
                 st.markdown(f"""
@@ -1963,11 +1981,11 @@ def main_app():
                     
         st.markdown("<div style='height: 1rem;'></div>", unsafe_allow_html=True)
         # Row 2
-        col5, col6, col7, col8 = st.columns(4)
-        cols_row2 = [col5, col6, col7, col8]
-        for idx in range(4, 8):
+        col4, col5, col6 = st.columns(3)
+        cols_row2 = [col4, col5, col6]
+        for idx in range(3, 6):
             title, desc, icon, query = grid_data[idx]
-            with cols_row2[idx-4]:
+            with cols_row2[idx-3]:
                 st.markdown(f"""
                 <div class="portal-card">
                     <div class="portal-icon">{icon}</div>

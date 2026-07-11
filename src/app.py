@@ -1629,7 +1629,21 @@ def main_app():
                     return uploaded_file.getvalue().decode("utf-8", errors="ignore")
             except Exception:
                 return ""
+
+        # Tracking uploaded files in session state to auto-trigger query execution
+        if "last_image_name" not in st.session_state:
+            st.session_state.last_image_name = None
+        if "last_report_name" not in st.session_state:
+            st.session_state.last_report_name = None
+
+        trigger_analysis = False
+
         if uploaded_image:
+            if uploaded_image.name != st.session_state.last_image_name:
+                st.session_state.last_image_name = uploaded_image.name
+                st.session_state.active_response = None  # Reset response for new file
+                trigger_analysis = True
+            st.success(f"📸 Medical image '{uploaded_image.name}' uploaded successfully!")
             st.image(uploaded_image, caption="Uploaded medical scan for analysis", width=300)
             st.caption(
                 "Educational use only. AI may miss marked abnormalities (e.g. arrows on teaching X-rays). "
@@ -1653,6 +1667,20 @@ def main_app():
                     "Cannot reach the API backend on port 8000. "
                     "Run `run_app.bat` or start FastAPI in a terminal."
                 )
+
+        if uploaded_report:
+            if uploaded_report.name != st.session_state.last_report_name:
+                st.session_state.last_report_name = uploaded_report.name
+                st.session_state.active_response = None  # Reset response for new file
+                trigger_analysis = True
+            
+            report_text = _extract_report_text(uploaded_report)
+            if report_text:
+                st.success(f"📄 Medical report '{uploaded_report.name}' parsed successfully!")
+                with st.expander("📝 View Extracted Report Text Preview", expanded=False):
+                    st.code(report_text[:1200] + ("\n... [truncated] ..." if len(report_text) > 1200 else ""))
+            else:
+                st.error(f"❌ Failed to extract text from medical report '{uploaded_report.name}'. Check file encoding/integrity.")
         
         # Checkboxes for categories (Users must select one: Cancer, Diabetes, or Research)
         col_cat1, col_cat2 = st.columns(2)
@@ -1668,7 +1696,7 @@ def main_app():
         send_clicked = st.button("Send Query", key="send_chat_query", use_container_width=True, type="primary")
         auto_trigger = chat_q and not st.session_state.active_response and q_val == chat_q
  
-        if send_clicked or auto_trigger:
+        if send_clicked or auto_trigger or trigger_analysis:
             query_text = chat_q.strip()
             if uploaded_image is not None and not query_text:
                 query_text = (

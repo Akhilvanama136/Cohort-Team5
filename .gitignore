@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# Scratch/temp
+scratch/
+
+# Large binary files (optional - remove if you want these in the repo)
+# embeddings.npy
+# medical_db.faiss

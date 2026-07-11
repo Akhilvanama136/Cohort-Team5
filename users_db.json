@@ -1,0 +1,93 @@
+{
+  "testdoctor": {
+    "username": "testdoctor",
+    "email": "test@hospital.org",
+    "hashed_password": "$2b$12$hJ9tiz4MBH5qfEpNE4AK0.TQcgQf6XK0JP3CNgRGHVKUfkAj39B72",
+    "role": "user"
+  },
+  "Akhil": {
+    "username": "Akhil",
+    "email": "akhilvanama5@gmail.com",
+    "hashed_password": "$2b$12$jr9lX/zM9wUYXTFxYnaz5uyOV1FGoQ2iydHXjQlRm4.mz31fLxLIm",
+    "role": "user"
+  },
+  "admin_user": {
+    "username": "admin_user",
+    "email": "admin@hospital.org",
+    "hashed_password": "$2b$12$lsyZKlEyosJjM1ZmPu7eLO7d2FqZ.ltbqOh5APSVlEZbMZlAb67B2",
+    "role": "admin"
+  },
+  "doctor_user": {
+    "username": "doctor_user",
+    "email": "doctor@hospital.org",
+    "hashed_password": "$2b$12$Xqytu3gxWN6oYXN1fC2.neJ3ARdr4dcxuTi28ozWNF85bHTKH0IQa",
+    "role": "doctor"
+  },
+  "regular_user": {
+    "username": "regular_user",
+    "email": "user@hospital.org",
+    "hashed_password": "$2b$12$swKdoJMzxneNhKGkTS9nme9ISgLFCqfOyrxFq7ywlfRK41/Yujvri",
+    "role": "user"
+  },
+  "Akhil1": {
+    "username": "Akhil1",
+    "email": "akhilvanama19@gmail.com",
+    "hashed_password": "$2b$12$7GXnnSojpYRq2bYTVrB6SeOa92RjV7pmLq2mV0UsMhTtOBRPzzblW",
+    "role": "doctor"
+  },
+  "Akhil12": {
+    "username": "Akhil12",
+    "email": "akhilvanama5@gmail.com",
+    "hashed_password": "$2b$12$CEnXbznTT/Rv3DqcO30bPenaYwp2eJIVd8D1CBQn/tAn2NgaiYUL.",
+    "role": "admin"
+  },
+  "User": {
+    "username": "User",
+    "email": "akhilvanama5@gmail.com",
+    "hashed_password": "$2b$12$7FEJZzcIbf3bdRrsYJn2N.0lrJIfrci0s92pyQbTH9I2PhUxuOWrO",
+    "role": "user",
+    "created_at": "2026-07-10T05:28:01.885334"
+  },
+  "Doctor": {
+    "username": "Doctor",
+    "email": "akhilvanama5@gmail.com",
+    "hashed_password": "$2b$12$2w7pg4tt9YSWz/hFNx08JuHkkabjtLpvCBfgl7G243sq6oBoi/0SW",
+    "role": "doctor",
+    "created_at": "2026-07-10T05:37:21.370481"
+  },
+  "UserTemp": {
+    "username": "UserTemp",
+    "email": "usertemp@example.com",
+    "hashed_password": "$2b$12$tTAkk5TR.h4OKbvOLS11COWENbuJ1TmYC4zOlBtKuqsgXELSE6Cre",
+    "role": "user",
+    "created_at": "2026-07-10T10:44:33.450678"
+  },
+  "User123": {
+    "username": "User123",
+    "email": "akhil5@gmail.com",
+    "hashed_password": "$2b$12$gfqK1F6cSldQZeZS.86KMuemh0ZHalp2bWkbABnvhpFv9lyWoNy2W",
+    "role": "user",
+    "created_at": "2026-07-10T10:48:06.047207"
+  },
+  "User1": {
+    "username": "User1",
+    "email": "akhilvanama5@gmail.com",
+    "hashed_password": "$2b$12$rCZspIGIiqX0d8VU0BEDduV41MCa4P/1oVVPuuUacNNPh8BzGmjjG",
+    "role": "user",
+    "created_at": "2026-07-10T11:10:34.036581"
+  },
+  "doc_john": {
+    "username": "doc_john",
+    "email": "doc@hospital.org",
+    "hashed_password": "$2b$12$3WKyS8Uz3tVznwRLpEcxXe6FFDp8LKlIN8DEWPpVUOZwNLwZLPYVi",
+    "role": "doctor",
+    "created_at": "2026-07-10T14:52:39.704634"
+  },
+  "Admin": {
+    "username": "Admin",
+    "email": "akhilvanama5@gmail.com",
+    "hashed_password": "$2b$12$CcXIJeKJ4n5PpBEQeA.9keX7yFjP.uYOe..6cupBBrUPAeNfNnkW2",
+    "role": "admin",
+    "created_at": "2026-07-10T15:22:37.626492"
+  }
+}

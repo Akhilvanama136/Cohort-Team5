@@ -1,0 +1,1193 @@
+Timestamp (UTC),Username,Question,Disease Category,Response Time (s),Sources Used
+2026-07-03T03:58:38.443466,testdoctor,What are the risk factors for Leukemia?,cancer,36.09400653839111,medpath_rag_dataset.json (Pg N/A); medpath_rag_dataset.json (Pg N/A); medpath_rag_dataset.json (Pg N/A); medpath_rag_dataset.json (Pg N/A); medpath_rag_dataset.json (Pg N/A)
+2026-07-03T04:02:01.685701,testdoctor,What are the risk factors for Leukemia?,cancer,28.814516305923462,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-03T04:04:44.523939,testdoctor,What are the risk factors for Leukemia?,cancer,50.86196494102478,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-03T04:07:00.976000,testdoctor,What are the risk factors for Leukemia?,cancer,54.19341278076172,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-03T05:11:56.636281,Akhil,What is diabetic nephropathy?,diabetes,79.10297298431396,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-03T05:14:08.097147,Akhil,"What is the clinical role of HER2, ER, and PR in breast cancer prognosis?",cancer,54.346312284469604,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-03T05:14:09.704085,Akhil,"What is the clinical role of HER2, ER, and PR in breast cancer prognosis?",cancer,51.004321813583374,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-03T05:14:11.370668,Akhil,"What is the clinical role of HER2, ER, and PR in breast cancer prognosis?",cancer,46.644994497299194,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-03T05:14:13.558901,Akhil,"What is the clinical role of HER2, ER, and PR in breast cancer prognosis?",cancer,42.13379454612732,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-03T05:14:15.538718,Akhil,"What is the clinical role of HER2, ER, and PR in breast cancer prognosis?",cancer,40.46362829208374,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-03T07:02:21.397475,Akhil1,What are microvascular vs macrovascular complications of diabetes?,diabetes,64.04025959968567,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-03T07:04:58.569527,Akhil1,What causes absolute insulin deficiency in Type 1 Diabetes?,diabetes,92.2173171043396,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-03T07:05:59.026044,Akhil1,Describe chemotherapy mechanisms targeting rapidly dividing tumor cells.,cancer,92.89513945579529,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:03:39.781549,Akhil1,"What is the clinical role of HER2, ER, and PR in breast cancer prognosis?",cancer,83.54826331138611,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:05:44.949721,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,83.76335453987122,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:05:53.645641,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,79.77150702476501,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:06:02.406821,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,70.95572137832642,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:06:14.295592,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,28.316740036010742,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:06:22.980544,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,26.39178776741028,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:06:32.236671,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,33.01649284362793,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:06:42.681622,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,38.86796283721924,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:09:56.573771,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,11.200867652893066,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:10:03.049033,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,12.99786376953125,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:10:38.770971,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,41.57670712471008,None
+2026-07-04T17:12:02.471950,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,83.59785437583923,None
+2026-07-04T17:12:11.399231,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,92.55259323120117,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:12:47.781544,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,45.27894425392151,None
+2026-07-04T17:13:12.743236,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,24.82304811477661,None
+2026-07-04T17:13:28.505556,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,15.750407218933105,None
+2026-07-04T17:18:52.830899,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,32.18460273742676,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:19:06.294202,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,40.52483415603638,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:19:54.789070,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,79.76341271400452,None
+2026-07-04T17:20:24.182301,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,29.309995412826538,None
+2026-07-04T17:27:06.382749,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,30.49207353591919,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:27:16.917258,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,37.9873583316803,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:28:52.288489,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,124.93674349784851,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:30:08.206766,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,75.87771487236023,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:43:25.621308,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,46.949298620224,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:44:28.873823,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,103.72598218917847,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:45:45.814127,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,171.77578902244568,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:48:51.850363,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,22.050440311431885,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:48:54.304033,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,21.198871850967407,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:50:46.872746,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,124.64676237106323,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:54:00.011484,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,43.84002232551575,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:55:39.705020,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,129.64945197105408,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T17:56:06.180958,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,152.04506826400757,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T18:02:09.235540,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,82.27589130401611,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T18:15:27.487237,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,27.908207416534424,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T18:15:28.579809,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,24.4327335357666,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T18:18:03.186138,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,168.1318542957306,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T18:18:47.733149,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,199.80657052993774,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T18:26:18.332519,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,36.09903573989868,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T18:26:36.043845,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,50.366814851760864,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T18:28:13.778249,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,137.50258350372314,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-04T18:29:23.935130,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,203.6459240913391,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:46:59.409029,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,41.4296133518219,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:47:30.191826,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,68.48127341270447,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:48:41.228187,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,96.21373057365417,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:48:59.289455,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,98.80123138427734,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:49:11.118139,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,96.84895324707031,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:49:52.091239,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,93.35079169273376,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:50:05.581388,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,193.88035321235657,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:50:06.684661,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,93.64253377914429,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:50:11.988710,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,95.04700493812561,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:50:39.425144,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,93.16377425193787,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:50:42.593653,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,93.2740044593811,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:53:49.603967,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,93.2243709564209,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:54:50.140681,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,465.6512861251831,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:55:05.083989,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,465.2042877674103,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:55:18.002426,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,464.42306780815125,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:55:50.623102,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,460.70061588287354,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:56:02.634550,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,460.8711075782776,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:56:19.036620,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,463.4367833137512,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:56:36.920164,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,463.16268968582153,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:56:49.074907,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,460.09452199935913,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:58:39.263348,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,369.7211799621582,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:58:58.220344,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,383.17983508110046,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T14:59:17.048481,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,396.2461950778961,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T15:08:19.651751,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,27.700841665267944,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T15:08:42.848061,Akhil1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,32.9630811214447,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-06T15:19:20.615074,Akhil1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,176.31089282035828,medpath_rag_dataset.json (Pg 1)
+2026-07-10T05:27:57.801121,Akhil12,"What is the clinical role of HER2, ER, and PR in breast cancer prognosis?",cancer,59.60472583770752,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T05:29:06.276991,User,what is Java,research,6.2980897426605225,None
+2026-07-10T09:48:30.295681,User,"What is the clinical role of HER2, ER, and PR in breast cancer prognosis?",diabetes,50.85799551010132,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T10:50:49.061824,User123,Describe clinical markers for Diabetic Nephropathy.,diabetes,44.90383577346802,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T10:51:21.281149,User123,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,diabetes,59.01844930648804,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T10:51:39.914682,User123,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,diabetes,68.61450052261353,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T10:51:59.753144,User123,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,diabetes,72.82518768310547,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T11:11:56.415066,User,What causes absolute insulin deficiency in Type 1 Diabetes?,diabetes,51.85159111022949,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T11:12:14.611912,User,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,diabetes,55.08565092086792,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T11:20:29.037680,User1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,diabetes,30.810808420181274,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T11:21:00.444677,User1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,54.221028566360474,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T11:32:11.770232,User1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,diabetes,12.884423017501831,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T11:35:47.546161,User1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,197.36606907844543,medpath_rag_dataset.json (Pg 1)
+2026-07-10T11:35:59.274241,User1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,200.32384872436523,medpath_rag_dataset.json (Pg 1)
+2026-07-10T14:56:37.705867,User1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,diabetes,33.94244360923767,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:00:05.457199,User1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,219.6182153224945,medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:00:13.121557,User1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,219.69217801094055,medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:00:21.409785,User1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,219.45221877098083,medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:00:44.975549,User1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,219.5668113231659,medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:00:46.328900,User1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,diabetes,78.99154233932495,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:01:38.861040,User1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,diabetes,94.4074137210846,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:01:38.899493,User1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,diabetes,101.29065561294556,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:01:38.934491,User1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,diabetes,114.03381681442261,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:01:41.605837,User1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,92.75931406021118,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:01:45.316525,User1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,93.19056272506714,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:01:49.460574,User1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,94.28208780288696,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:01:51.955795,User1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,93.80413913726807,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:01:53.216638,User1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,94.10517001152039,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:01:54.476598,User1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,93.65634512901306,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:02:39.323076,User1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,219.12138295173645,medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:02:43.016741,User1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,219.5791563987732,medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:02:49.654199,User1,[IMAGE] What are key histopathological differences between SCLC and adenocarcinoma of the lung?,image_analysis,219.97433972358704,medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:03:13.689994,User1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,cancer,92.22509026527405,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:18:36.047509,User1,What causes absolute insulin deficiency in Type 1 Diabetes?,diabetes,51.88685441017151,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:19:13.092395,User1,What causes absolute insulin deficiency in Type 1 Diabetes?,diabetes,70.82411098480225,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:19:36.492896,User1,What causes absolute insulin deficiency in Type 1 Diabetes?,diabetes,95.17295145988464,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:20:02.434215,User1,What causes absolute insulin deficiency in Type 1 Diabetes?,diabetes,93.12629008293152,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T15:20:30.556002,User1,"What is the clinical role of HER2, ER, and PR in breast cancer prognosis?",diabetes,94.78723931312561,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T16:16:55.531657,admin_user,[IMAGE] Analyze this scan,image_analysis,141.37018823623657,medpath_rag_dataset.json (Pg 1)
+2026-07-10T16:39:39.104769,admin_user,"What does this medical report say about my blood sugar level and diagnosis?
+
+[Uploaded Medical Report]:
+Patient report: fasting blood glucose is 185 mg/dL, HbA1c is 8.2%. Suggests uncontrolled type 2 diabetes.",diabetes,136.64732384681702,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T16:40:52.080636,admin_user,[IMAGE] Analyze this scan and the attached report,image_analysis,179.35885500907898,medpath_rag_dataset.json (Pg 1)
+2026-07-10T16:41:08.822305,admin_user,"What does this medical report say about my blood sugar level and diagnosis?
+
+[Uploaded Medical Report]:
+Patient report: fasting blood glucose is 185 mg/dL, HbA1c is 8.2%. Suggests uncontrolled type 2 diabetes.",diabetes,26.855113983154297,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T16:43:09.436860,admin_user,[IMAGE] Analyze this scan and the attached report,image_analysis,120.31559944152832,medpath_rag_dataset.json (Pg 1)
+2026-07-10T17:12:31.351551,User1,"What is the clinical role of HER2, ER, and PR in breast cancer prognosis?",diabetes,52.64152002334595,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T17:12:51.943084,User1,"What is the clinical role of HER2, ER, and PR in breast cancer prognosis?",diabetes,13.979082345962524,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T17:19:44.194911,User1,"What are key histopathological differences between SCLC and adenocarcinoma of the lung?
+
+[Uploaded Medical Report]:
+Sample Histopathology Report (Fictional)
+This report is fictional and intended only for educational, demonstration, and software development
+purposes.
+Patient Information
+Field
+Value
+Patient ID
+PT-2026-001254
+Name
+Rahul Kumar
+Age
+58 Years
+Gender
+Male
+Report Date
+10 July 2026
+Clinical History
+Persistent cough for 4 months; blood-streaked sputum; 8 kg weight loss; 35 pack-year smoking
+history; shortness of breath.
+Specimen Received
+Bronchoscopic biopsy from the right upper lobe of the lung.
+Gross Examination
+Multiple grey-white irregular soft tissue fragments measuring 1.5 × 0.8 × 0.3 cm. All tissue
+submitted for microscopic examination.
+Microscopic Examination
+Infiltrating malignant epithelial cells arranged in glandular patterns with pleomorphic nuclei,
+prominent nucleoli, increased N:C ratio, frequent mitoses, areas of necrosis, and stromal
+desmoplasia.
+Immunohistochemistry
+Marker
+Result
+TTF-1
+Positive
+Napsin A
+Positive
+CK7
+Positive
+CK20
+Negative
+p40
+Negative
+Ki-67
+45%
+Molecular Testing
+Test
+Result
+EGFR Mutation
+Negative
+
+ALK Rearrangement
+Negative
+ROS1
+Negative
+PD-L1 Expression
+40% TPS
+Final Diagnosis
+Primary Lung Adenocarcinoma (Moderately differentiated invasive adenocarcinoma).
+TNM Staging
+Parameter
+Stage
+Tumor
+T2
+Node
+N1
+Metastasis
+M0
+Overall
+Stage IIB
+Recommended Clinical Correlation
+PET-CT, MRI Brain if indicated, CBC, Liver Function Tests, Pulmonary Function Tests, Oncology
+consultation, Thoracic surgery evaluation.
+Treatment Options
+Surgical resection, platinum-based chemotherapy, immunotherapy (depending on PD-L1), targeted
+therapy if actionable mutation detected, radiation therapy when indicated.
+Prognostic Factors
+Favorable: early diagnosis, complete surgical excision, good performance status. Unfavorable:
+lymph node involvement, large tumor size, high Ki-67, smoking history.
+Pathologist's Comment
+The biopsy demonstrates features consistent with primary lung adenocarcinoma. Correlate with
+imaging, clinical findings, and molecular profiling.
+Electronically Signed By
+Dr. Priya Menon, MD (Pathology)
+Consultant Histopathologist
+ISO 15189 Certified Laboratory
+",cancer,79.73966526985168,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T17:21:20.569522,User1,"What are key histopathological differences between SCLC and adenocarcinoma of the lung?
+
+[Uploaded Medical Report]:
+Sample Histopathology Report (Fictional)
+This report is fictional and intended only for educational, demonstration, and software development
+purposes.
+Patient Information
+Field
+Value
+Patient ID
+PT-2026-001254
+Name
+Rahul Kumar
+Age
+58 Years
+Gender
+Male
+Report Date
+10 July 2026
+Clinical History
+Persistent cough for 4 months; blood-streaked sputum; 8 kg weight loss; 35 pack-year smoking
+history; shortness of breath.
+Specimen Received
+Bronchoscopic biopsy from the right upper lobe of the lung.
+Gross Examination
+Multiple grey-white irregular soft tissue fragments measuring 1.5 × 0.8 × 0.3 cm. All tissue
+submitted for microscopic examination.
+Microscopic Examination
+Infiltrating malignant epithelial cells arranged in glandular patterns with pleomorphic nuclei,
+prominent nucleoli, increased N:C ratio, frequent mitoses, areas of necrosis, and stromal
+desmoplasia.
+Immunohistochemistry
+Marker
+Result
+TTF-1
+Positive
+Napsin A
+Positive
+CK7
+Positive
+CK20
+Negative
+p40
+Negative
+Ki-67
+45%
+Molecular Testing
+Test
+Result
+EGFR Mutation
+Negative
+
+ALK Rearrangement
+Negative
+ROS1
+Negative
+PD-L1 Expression
+40% TPS
+Final Diagnosis
+Primary Lung Adenocarcinoma (Moderately differentiated invasive adenocarcinoma).
+TNM Staging
+Parameter
+Stage
+Tumor
+T2
+Node
+N1
+Metastasis
+M0
+Overall
+Stage IIB
+Recommended Clinical Correlation
+PET-CT, MRI Brain if indicated, CBC, Liver Function Tests, Pulmonary Function Tests, Oncology
+consultation, Thoracic surgery evaluation.
+Treatment Options
+Surgical resection, platinum-based chemotherapy, immunotherapy (depending on PD-L1), targeted
+therapy if actionable mutation detected, radiation therapy when indicated.
+Prognostic Factors
+Favorable: early diagnosis, complete surgical excision, good performance status. Unfavorable:
+lymph node involvement, large tumor size, high Ki-67, smoking history.
+Pathologist's Comment
+The biopsy demonstrates features consistent with primary lung adenocarcinoma. Correlate with
+imaging, clinical findings, and molecular profiling.
+Electronically Signed By
+Dr. Priya Menon, MD (Pathology)
+Consultant Histopathologist
+ISO 15189 Certified Laboratory
+",diabetes,190.78487944602966,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T17:21:47.956496,User1,"What are key histopathological differences between SCLC and adenocarcinoma of the lung?
+
+[Uploaded Medical Report]:
+Sample Histopathology Report (Fictional)
+This report is fictional and intended only for educational, demonstration, and software development
+purposes.
+Patient Information
+Field
+Value
+Patient ID
+PT-2026-001254
+Name
+Rahul Kumar
+Age
+58 Years
+Gender
+Male
+Report Date
+10 July 2026
+Clinical History
+Persistent cough for 4 months; blood-streaked sputum; 8 kg weight loss; 35 pack-year smoking
+history; shortness of breath.
+Specimen Received
+Bronchoscopic biopsy from the right upper lobe of the lung.
+Gross Examination
+Multiple grey-white irregular soft tissue fragments measuring 1.5 × 0.8 × 0.3 cm. All tissue
+submitted for microscopic examination.
+Microscopic Examination
+Infiltrating malignant epithelial cells arranged in glandular patterns with pleomorphic nuclei,
+prominent nucleoli, increased N:C ratio, frequent mitoses, areas of necrosis, and stromal
+desmoplasia.
+Immunohistochemistry
+Marker
+Result
+TTF-1
+Positive
+Napsin A
+Positive
+CK7
+Positive
+CK20
+Negative
+p40
+Negative
+Ki-67
+45%
+Molecular Testing
+Test
+Result
+EGFR Mutation
+Negative
+
+ALK Rearrangement
+Negative
+ROS1
+Negative
+PD-L1 Expression
+40% TPS
+Final Diagnosis
+Primary Lung Adenocarcinoma (Moderately differentiated invasive adenocarcinoma).
+TNM Staging
+Parameter
+Stage
+Tumor
+T2
+Node
+N1
+Metastasis
+M0
+Overall
+Stage IIB
+Recommended Clinical Correlation
+PET-CT, MRI Brain if indicated, CBC, Liver Function Tests, Pulmonary Function Tests, Oncology
+consultation, Thoracic surgery evaluation.
+Treatment Options
+Surgical resection, platinum-based chemotherapy, immunotherapy (depending on PD-L1), targeted
+therapy if actionable mutation detected, radiation therapy when indicated.
+Prognostic Factors
+Favorable: early diagnosis, complete surgical excision, good performance status. Unfavorable:
+lymph node involvement, large tumor size, high Ki-67, smoking history.
+Pathologist's Comment
+The biopsy demonstrates features consistent with primary lung adenocarcinoma. Correlate with
+imaging, clinical findings, and molecular profiling.
+Electronically Signed By
+Dr. Priya Menon, MD (Pathology)
+Consultant Histopathologist
+ISO 15189 Certified Laboratory
+",cancer,193.3130600452423,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T17:21:58.381274,User1,"What are key histopathological differences between SCLC and adenocarcinoma of the lung?
+
+[Uploaded Medical Report]:
+Sample Histopathology Report (Fictional)
+This report is fictional and intended only for educational, demonstration, and software development
+purposes.
+Patient Information
+Field
+Value
+Patient ID
+PT-2026-001254
+Name
+Rahul Kumar
+Age
+58 Years
+Gender
+Male
+Report Date
+10 July 2026
+Clinical History
+Persistent cough for 4 months; blood-streaked sputum; 8 kg weight loss; 35 pack-year smoking
+history; shortness of breath.
+Specimen Received
+Bronchoscopic biopsy from the right upper lobe of the lung.
+Gross Examination
+Multiple grey-white irregular soft tissue fragments measuring 1.5 × 0.8 × 0.3 cm. All tissue
+submitted for microscopic examination.
+Microscopic Examination
+Infiltrating malignant epithelial cells arranged in glandular patterns with pleomorphic nuclei,
+prominent nucleoli, increased N:C ratio, frequent mitoses, areas of necrosis, and stromal
+desmoplasia.
+Immunohistochemistry
+Marker
+Result
+TTF-1
+Positive
+Napsin A
+Positive
+CK7
+Positive
+CK20
+Negative
+p40
+Negative
+Ki-67
+45%
+Molecular Testing
+Test
+Result
+EGFR Mutation
+Negative
+
+ALK Rearrangement
+Negative
+ROS1
+Negative
+PD-L1 Expression
+40% TPS
+Final Diagnosis
+Primary Lung Adenocarcinoma (Moderately differentiated invasive adenocarcinoma).
+TNM Staging
+Parameter
+Stage
+Tumor
+T2
+Node
+N1
+Metastasis
+M0
+Overall
+Stage IIB
+Recommended Clinical Correlation
+PET-CT, MRI Brain if indicated, CBC, Liver Function Tests, Pulmonary Function Tests, Oncology
+consultation, Thoracic surgery evaluation.
+Treatment Options
+Surgical resection, platinum-based chemotherapy, immunotherapy (depending on PD-L1), targeted
+therapy if actionable mutation detected, radiation therapy when indicated.
+Prognostic Factors
+Favorable: early diagnosis, complete surgical excision, good performance status. Unfavorable:
+lymph node involvement, large tumor size, high Ki-67, smoking history.
+Pathologist's Comment
+The biopsy demonstrates features consistent with primary lung adenocarcinoma. Correlate with
+imaging, clinical findings, and molecular profiling.
+Electronically Signed By
+Dr. Priya Menon, MD (Pathology)
+Consultant Histopathologist
+ISO 15189 Certified Laboratory
+",cancer,199.19932055473328,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T17:22:10.362103,User1,"What are key histopathological differences between SCLC and adenocarcinoma of the lung?
+
+[Uploaded Medical Report]:
+Sample Histopathology Report (Fictional)
+This report is fictional and intended only for educational, demonstration, and software development
+purposes.
+Patient Information
+Field
+Value
+Patient ID
+PT-2026-001254
+Name
+Rahul Kumar
+Age
+58 Years
+Gender
+Male
+Report Date
+10 July 2026
+Clinical History
+Persistent cough for 4 months; blood-streaked sputum; 8 kg weight loss; 35 pack-year smoking
+history; shortness of breath.
+Specimen Received
+Bronchoscopic biopsy from the right upper lobe of the lung.
+Gross Examination
+Multiple grey-white irregular soft tissue fragments measuring 1.5 × 0.8 × 0.3 cm. All tissue
+submitted for microscopic examination.
+Microscopic Examination
+Infiltrating malignant epithelial cells arranged in glandular patterns with pleomorphic nuclei,
+prominent nucleoli, increased N:C ratio, frequent mitoses, areas of necrosis, and stromal
+desmoplasia.
+Immunohistochemistry
+Marker
+Result
+TTF-1
+Positive
+Napsin A
+Positive
+CK7
+Positive
+CK20
+Negative
+p40
+Negative
+Ki-67
+45%
+Molecular Testing
+Test
+Result
+EGFR Mutation
+Negative
+
+ALK Rearrangement
+Negative
+ROS1
+Negative
+PD-L1 Expression
+40% TPS
+Final Diagnosis
+Primary Lung Adenocarcinoma (Moderately differentiated invasive adenocarcinoma).
+TNM Staging
+Parameter
+Stage
+Tumor
+T2
+Node
+N1
+Metastasis
+M0
+Overall
+Stage IIB
+Recommended Clinical Correlation
+PET-CT, MRI Brain if indicated, CBC, Liver Function Tests, Pulmonary Function Tests, Oncology
+consultation, Thoracic surgery evaluation.
+Treatment Options
+Surgical resection, platinum-based chemotherapy, immunotherapy (depending on PD-L1), targeted
+therapy if actionable mutation detected, radiation therapy when indicated.
+Prognostic Factors
+Favorable: early diagnosis, complete surgical excision, good performance status. Unfavorable:
+lymph node involvement, large tumor size, high Ki-67, smoking history.
+Pathologist's Comment
+The biopsy demonstrates features consistent with primary lung adenocarcinoma. Correlate with
+imaging, clinical findings, and molecular profiling.
+Electronically Signed By
+Dr. Priya Menon, MD (Pathology)
+Consultant Histopathologist
+ISO 15189 Certified Laboratory
+",cancer,211.95683312416077,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T17:22:14.145013,User1,"What are key histopathological differences between SCLC and adenocarcinoma of the lung?
+
+[Uploaded Medical Report]:
+Sample Histopathology Report (Fictional)
+This report is fictional and intended only for educational, demonstration, and software development
+purposes.
+Patient Information
+Field
+Value
+Patient ID
+PT-2026-001254
+Name
+Rahul Kumar
+Age
+58 Years
+Gender
+Male
+Report Date
+10 July 2026
+Clinical History
+Persistent cough for 4 months; blood-streaked sputum; 8 kg weight loss; 35 pack-year smoking
+history; shortness of breath.
+Specimen Received
+Bronchoscopic biopsy from the right upper lobe of the lung.
+Gross Examination
+Multiple grey-white irregular soft tissue fragments measuring 1.5 × 0.8 × 0.3 cm. All tissue
+submitted for microscopic examination.
+Microscopic Examination
+Infiltrating malignant epithelial cells arranged in glandular patterns with pleomorphic nuclei,
+prominent nucleoli, increased N:C ratio, frequent mitoses, areas of necrosis, and stromal
+desmoplasia.
+Immunohistochemistry
+Marker
+Result
+TTF-1
+Positive
+Napsin A
+Positive
+CK7
+Positive
+CK20
+Negative
+p40
+Negative
+Ki-67
+45%
+Molecular Testing
+Test
+Result
+EGFR Mutation
+Negative
+
+ALK Rearrangement
+Negative
+ROS1
+Negative
+PD-L1 Expression
+40% TPS
+Final Diagnosis
+Primary Lung Adenocarcinoma (Moderately differentiated invasive adenocarcinoma).
+TNM Staging
+Parameter
+Stage
+Tumor
+T2
+Node
+N1
+Metastasis
+M0
+Overall
+Stage IIB
+Recommended Clinical Correlation
+PET-CT, MRI Brain if indicated, CBC, Liver Function Tests, Pulmonary Function Tests, Oncology
+consultation, Thoracic surgery evaluation.
+Treatment Options
+Surgical resection, platinum-based chemotherapy, immunotherapy (depending on PD-L1), targeted
+therapy if actionable mutation detected, radiation therapy when indicated.
+Prognostic Factors
+Favorable: early diagnosis, complete surgical excision, good performance status. Unfavorable:
+lymph node involvement, large tumor size, high Ki-67, smoking history.
+Pathologist's Comment
+The biopsy demonstrates features consistent with primary lung adenocarcinoma. Correlate with
+imaging, clinical findings, and molecular profiling.
+Electronically Signed By
+Dr. Priya Menon, MD (Pathology)
+Consultant Histopathologist
+ISO 15189 Certified Laboratory
+",cancer,238.08508038520813,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T17:22:14.992922,User1,"What are key histopathological differences between SCLC and adenocarcinoma of the lung?
+
+[Uploaded Medical Report]:
+Sample Histopathology Report (Fictional)
+This report is fictional and intended only for educational, demonstration, and software development
+purposes.
+Patient Information
+Field
+Value
+Patient ID
+PT-2026-001254
+Name
+Rahul Kumar
+Age
+58 Years
+Gender
+Male
+Report Date
+10 July 2026
+Clinical History
+Persistent cough for 4 months; blood-streaked sputum; 8 kg weight loss; 35 pack-year smoking
+history; shortness of breath.
+Specimen Received
+Bronchoscopic biopsy from the right upper lobe of the lung.
+Gross Examination
+Multiple grey-white irregular soft tissue fragments measuring 1.5 × 0.8 × 0.3 cm. All tissue
+submitted for microscopic examination.
+Microscopic Examination
+Infiltrating malignant epithelial cells arranged in glandular patterns with pleomorphic nuclei,
+prominent nucleoli, increased N:C ratio, frequent mitoses, areas of necrosis, and stromal
+desmoplasia.
+Immunohistochemistry
+Marker
+Result
+TTF-1
+Positive
+Napsin A
+Positive
+CK7
+Positive
+CK20
+Negative
+p40
+Negative
+Ki-67
+45%
+Molecular Testing
+Test
+Result
+EGFR Mutation
+Negative
+
+ALK Rearrangement
+Negative
+ROS1
+Negative
+PD-L1 Expression
+40% TPS
+Final Diagnosis
+Primary Lung Adenocarcinoma (Moderately differentiated invasive adenocarcinoma).
+TNM Staging
+Parameter
+Stage
+Tumor
+T2
+Node
+N1
+Metastasis
+M0
+Overall
+Stage IIB
+Recommended Clinical Correlation
+PET-CT, MRI Brain if indicated, CBC, Liver Function Tests, Pulmonary Function Tests, Oncology
+consultation, Thoracic surgery evaluation.
+Treatment Options
+Surgical resection, platinum-based chemotherapy, immunotherapy (depending on PD-L1), targeted
+therapy if actionable mutation detected, radiation therapy when indicated.
+Prognostic Factors
+Favorable: early diagnosis, complete surgical excision, good performance status. Unfavorable:
+lymph node involvement, large tumor size, high Ki-67, smoking history.
+Pathologist's Comment
+The biopsy demonstrates features consistent with primary lung adenocarcinoma. Correlate with
+imaging, clinical findings, and molecular profiling.
+Electronically Signed By
+Dr. Priya Menon, MD (Pathology)
+Consultant Histopathologist
+ISO 15189 Certified Laboratory
+",cancer,234.671213388443,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T17:22:19.314164,User1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,diabetes,255.26220989227295,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T17:22:32.298218,User1,"What are key histopathological differences between SCLC and adenocarcinoma of the lung?
+
+[Uploaded Medical Report]:
+Sample Histopathology Report (Fictional)
+This report is fictional and intended only for educational, demonstration, and software development
+purposes.
+Patient Information
+Field
+Value
+Patient ID
+PT-2026-001254
+Name
+Rahul Kumar
+Age
+58 Years
+Gender
+Male
+Report Date
+10 July 2026
+Clinical History
+Persistent cough for 4 months; blood-streaked sputum; 8 kg weight loss; 35 pack-year smoking
+history; shortness of breath.
+Specimen Received
+Bronchoscopic biopsy from the right upper lobe of the lung.
+Gross Examination
+Multiple grey-white irregular soft tissue fragments measuring 1.5 × 0.8 × 0.3 cm. All tissue
+submitted for microscopic examination.
+Microscopic Examination
+Infiltrating malignant epithelial cells arranged in glandular patterns with pleomorphic nuclei,
+prominent nucleoli, increased N:C ratio, frequent mitoses, areas of necrosis, and stromal
+desmoplasia.
+Immunohistochemistry
+Marker
+Result
+TTF-1
+Positive
+Napsin A
+Positive
+CK7
+Positive
+CK20
+Negative
+p40
+Negative
+Ki-67
+45%
+Molecular Testing
+Test
+Result
+EGFR Mutation
+Negative
+
+ALK Rearrangement
+Negative
+ROS1
+Negative
+PD-L1 Expression
+40% TPS
+Final Diagnosis
+Primary Lung Adenocarcinoma (Moderately differentiated invasive adenocarcinoma).
+TNM Staging
+Parameter
+Stage
+Tumor
+T2
+Node
+N1
+Metastasis
+M0
+Overall
+Stage IIB
+Recommended Clinical Correlation
+PET-CT, MRI Brain if indicated, CBC, Liver Function Tests, Pulmonary Function Tests, Oncology
+consultation, Thoracic surgery evaluation.
+Treatment Options
+Surgical resection, platinum-based chemotherapy, immunotherapy (depending on PD-L1), targeted
+therapy if actionable mutation detected, radiation therapy when indicated.
+Prognostic Factors
+Favorable: early diagnosis, complete surgical excision, good performance status. Unfavorable:
+lymph node involvement, large tumor size, high Ki-67, smoking history.
+Pathologist's Comment
+The biopsy demonstrates features consistent with primary lung adenocarcinoma. Correlate with
+imaging, clinical findings, and molecular profiling.
+Electronically Signed By
+Dr. Priya Menon, MD (Pathology)
+Consultant Histopathologist
+ISO 15189 Certified Laboratory
+",cancer,232.58332562446594,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T17:22:32.729771,User1,"What are key histopathological differences between SCLC and adenocarcinoma of the lung?
+
+[Uploaded Medical Report]:
+Sample Histopathology Report (Fictional)
+This report is fictional and intended only for educational, demonstration, and software development
+purposes.
+Patient Information
+Field
+Value
+Patient ID
+PT-2026-001254
+Name
+Rahul Kumar
+Age
+58 Years
+Gender
+Male
+Report Date
+10 July 2026
+Clinical History
+Persistent cough for 4 months; blood-streaked sputum; 8 kg weight loss; 35 pack-year smoking
+history; shortness of breath.
+Specimen Received
+Bronchoscopic biopsy from the right upper lobe of the lung.
+Gross Examination
+Multiple grey-white irregular soft tissue fragments measuring 1.5 × 0.8 × 0.3 cm. All tissue
+submitted for microscopic examination.
+Microscopic Examination
+Infiltrating malignant epithelial cells arranged in glandular patterns with pleomorphic nuclei,
+prominent nucleoli, increased N:C ratio, frequent mitoses, areas of necrosis, and stromal
+desmoplasia.
+Immunohistochemistry
+Marker
+Result
+TTF-1
+Positive
+Napsin A
+Positive
+CK7
+Positive
+CK20
+Negative
+p40
+Negative
+Ki-67
+45%
+Molecular Testing
+Test
+Result
+EGFR Mutation
+Negative
+
+ALK Rearrangement
+Negative
+ROS1
+Negative
+PD-L1 Expression
+40% TPS
+Final Diagnosis
+Primary Lung Adenocarcinoma (Moderately differentiated invasive adenocarcinoma).
+TNM Staging
+Parameter
+Stage
+Tumor
+T2
+Node
+N1
+Metastasis
+M0
+Overall
+Stage IIB
+Recommended Clinical Correlation
+PET-CT, MRI Brain if indicated, CBC, Liver Function Tests, Pulmonary Function Tests, Oncology
+consultation, Thoracic surgery evaluation.
+Treatment Options
+Surgical resection, platinum-based chemotherapy, immunotherapy (depending on PD-L1), targeted
+therapy if actionable mutation detected, radiation therapy when indicated.
+Prognostic Factors
+Favorable: early diagnosis, complete surgical excision, good performance status. Unfavorable:
+lymph node involvement, large tumor size, high Ki-67, smoking history.
+Pathologist's Comment
+The biopsy demonstrates features consistent with primary lung adenocarcinoma. Correlate with
+imaging, clinical findings, and molecular profiling.
+Electronically Signed By
+Dr. Priya Menon, MD (Pathology)
+Consultant Histopathologist
+ISO 15189 Certified Laboratory
+",cancer,246.86564421653748,None
+2026-07-10T17:22:45.204417,User1,"What are key histopathological differences between SCLC and adenocarcinoma of the lung?
+
+[Uploaded Medical Report]:
+Sample Histopathology Report (Fictional)
+This report is fictional and intended only for educational, demonstration, and software development
+purposes.
+Patient Information
+Field
+Value
+Patient ID
+PT-2026-001254
+Name
+Rahul Kumar
+Age
+58 Years
+Gender
+Male
+Report Date
+10 July 2026
+Clinical History
+Persistent cough for 4 months; blood-streaked sputum; 8 kg weight loss; 35 pack-year smoking
+history; shortness of breath.
+Specimen Received
+Bronchoscopic biopsy from the right upper lobe of the lung.
+Gross Examination
+Multiple grey-white irregular soft tissue fragments measuring 1.5 × 0.8 × 0.3 cm. All tissue
+submitted for microscopic examination.
+Microscopic Examination
+Infiltrating malignant epithelial cells arranged in glandular patterns with pleomorphic nuclei,
+prominent nucleoli, increased N:C ratio, frequent mitoses, areas of necrosis, and stromal
+desmoplasia.
+Immunohistochemistry
+Marker
+Result
+TTF-1
+Positive
+Napsin A
+Positive
+CK7
+Positive
+CK20
+Negative
+p40
+Negative
+Ki-67
+45%
+Molecular Testing
+Test
+Result
+EGFR Mutation
+Negative
+
+ALK Rearrangement
+Negative
+ROS1
+Negative
+PD-L1 Expression
+40% TPS
+Final Diagnosis
+Primary Lung Adenocarcinoma (Moderately differentiated invasive adenocarcinoma).
+TNM Staging
+Parameter
+Stage
+Tumor
+T2
+Node
+N1
+Metastasis
+M0
+Overall
+Stage IIB
+Recommended Clinical Correlation
+PET-CT, MRI Brain if indicated, CBC, Liver Function Tests, Pulmonary Function Tests, Oncology
+consultation, Thoracic surgery evaluation.
+Treatment Options
+Surgical resection, platinum-based chemotherapy, immunotherapy (depending on PD-L1), targeted
+therapy if actionable mutation detected, radiation therapy when indicated.
+Prognostic Factors
+Favorable: early diagnosis, complete surgical excision, good performance status. Unfavorable:
+lymph node involvement, large tumor size, high Ki-67, smoking history.
+Pathologist's Comment
+The biopsy demonstrates features consistent with primary lung adenocarcinoma. Correlate with
+imaging, clinical findings, and molecular profiling.
+Electronically Signed By
+Dr. Priya Menon, MD (Pathology)
+Consultant Histopathologist
+ISO 15189 Certified Laboratory
+",cancer,248.35133862495422,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T17:22:57.415369,User1,"What are key histopathological differences between SCLC and adenocarcinoma of the lung?
+
+[Uploaded Medical Report]:
+Sample Histopathology Report (Fictional)
+This report is fictional and intended only for educational, demonstration, and software development
+purposes.
+Patient Information
+Field
+Value
+Patient ID
+PT-2026-001254
+Name
+Rahul Kumar
+Age
+58 Years
+Gender
+Male
+Report Date
+10 July 2026
+Clinical History
+Persistent cough for 4 months; blood-streaked sputum; 8 kg weight loss; 35 pack-year smoking
+history; shortness of breath.
+Specimen Received
+Bronchoscopic biopsy from the right upper lobe of the lung.
+Gross Examination
+Multiple grey-white irregular soft tissue fragments measuring 1.5 × 0.8 × 0.3 cm. All tissue
+submitted for microscopic examination.
+Microscopic Examination
+Infiltrating malignant epithelial cells arranged in glandular patterns with pleomorphic nuclei,
+prominent nucleoli, increased N:C ratio, frequent mitoses, areas of necrosis, and stromal
+desmoplasia.
+Immunohistochemistry
+Marker
+Result
+TTF-1
+Positive
+Napsin A
+Positive
+CK7
+Positive
+CK20
+Negative
+p40
+Negative
+Ki-67
+45%
+Molecular Testing
+Test
+Result
+EGFR Mutation
+Negative
+
+ALK Rearrangement
+Negative
+ROS1
+Negative
+PD-L1 Expression
+40% TPS
+Final Diagnosis
+Primary Lung Adenocarcinoma (Moderately differentiated invasive adenocarcinoma).
+TNM Staging
+Parameter
+Stage
+Tumor
+T2
+Node
+N1
+Metastasis
+M0
+Overall
+Stage IIB
+Recommended Clinical Correlation
+PET-CT, MRI Brain if indicated, CBC, Liver Function Tests, Pulmonary Function Tests, Oncology
+consultation, Thoracic surgery evaluation.
+Treatment Options
+Surgical resection, platinum-based chemotherapy, immunotherapy (depending on PD-L1), targeted
+therapy if actionable mutation detected, radiation therapy when indicated.
+Prognostic Factors
+Favorable: early diagnosis, complete surgical excision, good performance status. Unfavorable:
+lymph node involvement, large tumor size, high Ki-67, smoking history.
+Pathologist's Comment
+The biopsy demonstrates features consistent with primary lung adenocarcinoma. Correlate with
+imaging, clinical findings, and molecular profiling.
+Electronically Signed By
+Dr. Priya Menon, MD (Pathology)
+Consultant Histopathologist
+ISO 15189 Certified Laboratory
+",cancer,279.06480860710144,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T17:23:14.563481,User1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,diabetes,69.0276427268982,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T17:23:27.406780,User1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,diabetes,79.19114112854004,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T17:23:38.954222,User1,What are key histopathological differences between SCLC and adenocarcinoma of the lung?,diabetes,88.88629007339478,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)
+2026-07-10T17:23:59.764276,User1,"What are key histopathological differences between SCLC and adenocarcinoma of the lung?
+
+[Uploaded Medical Report]:
+Sample Histopathology Report (Fictional)
+This report is fictional and intended only for educational, demonstration, and software development
+purposes.
+Patient Information
+Field
+Value
+Patient ID
+PT-2026-001254
+Name
+Rahul Kumar
+Age
+58 Years
+Gender
+Male
+Report Date
+10 July 2026
+Clinical History
+Persistent cough for 4 months; blood-streaked sputum; 8 kg weight loss; 35 pack-year smoking
+history; shortness of breath.
+Specimen Received
+Bronchoscopic biopsy from the right upper lobe of the lung.
+Gross Examination
+Multiple grey-white irregular soft tissue fragments measuring 1.5 × 0.8 × 0.3 cm. All tissue
+submitted for microscopic examination.
+Microscopic Examination
+Infiltrating malignant epithelial cells arranged in glandular patterns with pleomorphic nuclei,
+prominent nucleoli, increased N:C ratio, frequent mitoses, areas of necrosis, and stromal
+desmoplasia.
+Immunohistochemistry
+Marker
+Result
+TTF-1
+Positive
+Napsin A
+Positive
+CK7
+Positive
+CK20
+Negative
+p40
+Negative
+Ki-67
+45%
+Molecular Testing
+Test
+Result
+EGFR Mutation
+Negative
+
+ALK Rearrangement
+Negative
+ROS1
+Negative
+PD-L1 Expression
+40% TPS
+Final Diagnosis
+Primary Lung Adenocarcinoma (Moderately differentiated invasive adenocarcinoma).
+TNM Staging
+Parameter
+Stage
+Tumor
+T2
+Node
+N1
+Metastasis
+M0
+Overall
+Stage IIB
+Recommended Clinical Correlation
+PET-CT, MRI Brain if indicated, CBC, Liver Function Tests, Pulmonary Function Tests, Oncology
+consultation, Thoracic surgery evaluation.
+Treatment Options
+Surgical resection, platinum-based chemotherapy, immunotherapy (depending on PD-L1), targeted
+therapy if actionable mutation detected, radiation therapy when indicated.
+Prognostic Factors
+Favorable: early diagnosis, complete surgical excision, good performance status. Unfavorable:
+lymph node involvement, large tumor size, high Ki-67, smoking history.
+Pathologist's Comment
+The biopsy demonstrates features consistent with primary lung adenocarcinoma. Correlate with
+imaging, clinical findings, and molecular profiling.
+Electronically Signed By
+Dr. Priya Menon, MD (Pathology)
+Consultant Histopathologist
+ISO 15189 Certified Laboratory
+",cancer,320.37104177474976,medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1); medpath_rag_dataset.json (Pg 1)

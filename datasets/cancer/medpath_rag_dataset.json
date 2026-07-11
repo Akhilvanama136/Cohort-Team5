@@ -1,0 +1,1765 @@
+{
+  "project": "MedPath-RAG Medical Dataset",
+  "version": "1.0",
+  "total_diseases": 6,
+  "categories": ["Cancer", "Diabetes"],
+  "trusted_sources": ["WHO", "ADA", "NCI", "PubMed", "NCBI Bookshelf", "Peer-Reviewed Medical Journals", "Standard Pathology Textbooks"],
+  "diseases": {
+
+    "cancer": {
+
+      "leukemia": {
+        "basic_information": {
+          "disease_name": "Leukemia",
+          "definition": "Leukemia is a type of cancer that originates in the blood-forming tissues, primarily the bone marrow, leading to the production of abnormal white blood cells (leukocytes) that do not function properly.",
+          "overview": "Leukemia is a group of hematological malignancies characterized by the uncontrolled proliferation of immature or abnormal blood cells. It can be acute or chronic and involves either myeloid or lymphoid cell lineages. Leukemic cells crowd out normal blood cells, impairing immune function, oxygen transport, and clotting ability. It is among the most common cancers in children and adults worldwide."
+        },
+        "causes": {
+          "causes": [
+            "Genetic mutations in hematopoietic stem cells",
+            "Chromosomal abnormalities (e.g., Philadelphia chromosome in CML)",
+            "Exposure to ionizing radiation",
+            "Exposure to carcinogenic chemicals (e.g., benzene)",
+            "Prior chemotherapy or radiation therapy",
+            "Certain viral infections (e.g., HTLV-1 for adult T-cell leukemia)"
+          ],
+          "risk_factors": [
+            "Family history of leukemia",
+            "Genetic disorders (Down syndrome, Fanconi anemia, Bloom syndrome)",
+            "Previous cancer treatment (alkylating agents, topoisomerase II inhibitors)",
+            "Exposure to high-dose radiation",
+            "Smoking (increases risk of AML)",
+            "Exposure to benzene or pesticides",
+            "Age (risk increases with age for most types; ALL peaks in childhood)",
+            "Male sex (slightly higher incidence)"
+          ]
+        },
+        "pathophysiology": {
+          "disease_mechanism": "Leukemia arises from a single abnormal hematopoietic progenitor cell that acquires oncogenic mutations leading to uncontrolled proliferation and impaired differentiation. These leukemic blasts accumulate in the bone marrow and peripheral blood, crowding out normal hematopoietic cells and causing pancytopenia (anemia, thrombocytopenia, neutropenia).",
+          "cellular_changes": [
+            "Chromosomal translocations causing fusion oncogenes (e.g., BCR-ABL1 in CML)",
+            "Loss of tumor suppressor gene function (TP53, RB1)",
+            "Epigenetic dysregulation (DNA methylation, histone modification)",
+            "Activation of pro-proliferative signaling pathways (JAK-STAT, PI3K-AKT)",
+            "Block in myeloid or lymphoid differentiation",
+            "Resistance to apoptosis due to BCL-2 overexpression"
+          ]
+        },
+        "classification": {
+          "types": {
+            "AML": "Acute Myeloid Leukemia — rapid progression, immature myeloid blasts; most common acute leukemia in adults.",
+            "ALL": "Acute Lymphoblastic Leukemia — rapid progression, immature lymphoid blasts; most common cancer in children.",
+            "CML": "Chronic Myeloid Leukemia — slow progression, associated with BCR-ABL1 (Philadelphia chromosome); has chronic, accelerated, and blast phases.",
+            "CLL": "Chronic Lymphocytic Leukemia — slow progression, accumulation of mature-appearing but dysfunctional B lymphocytes; most common leukemia in adults in Western countries.",
+            "Other": "Hairy Cell Leukemia, T-cell prolymphocytic leukemia, large granular lymphocytic leukemia"
+          }
+        },
+        "clinical_presentation": {
+          "early_symptoms": [
+            "Fatigue and weakness",
+            "Pale skin (pallor)",
+            "Frequent minor infections",
+            "Easy bruising or bleeding"
+          ],
+          "common_symptoms": [
+            "Fever and night sweats",
+            "Bone and joint pain",
+            "Unexplained weight loss",
+            "Enlarged lymph nodes (lymphadenopathy)",
+            "Splenomegaly and hepatomegaly",
+            "Petechiae or purpura (skin bleeding)",
+            "Recurrent infections due to immune failure",
+            "Shortness of breath"
+          ],
+          "advanced_symptoms": [
+            "Severe anemia requiring transfusions",
+            "Life-threatening infections (sepsis)",
+            "CNS involvement (headache, seizures, vision changes) in ALL",
+            "Disseminated intravascular coagulation (DIC) in AML-M3",
+            "Leukostasis (extremely high WBC causing vascular occlusion)",
+            "Organ failure"
+          ]
+        },
+        "diagnosis": {
+          "physical_examination": [
+            "Lymph node assessment (lymphadenopathy)",
+            "Abdominal palpation for splenomegaly/hepatomegaly",
+            "Skin examination for petechiae, ecchymosis",
+            "Neurological examination",
+            "Sternal tenderness (bone marrow tenderness)"
+          ],
+          "laboratory_tests": {
+            "blood_tests": [
+              "Complete Blood Count (CBC) with differential — elevated WBC, decreased RBC, decreased platelets",
+              "Peripheral blood smear — identification of blasts, Auer rods (AML)",
+              "Lactate dehydrogenase (LDH) — elevated, reflects tumor burden",
+              "Uric acid — elevated due to rapid cell turnover",
+              "Coagulation panel (PT, aPTT, fibrinogen) — for DIC screening",
+              "Comprehensive metabolic panel",
+              "Flow cytometry — immunophenotyping of leukemic cells"
+            ],
+            "imaging": [
+              "Chest X-ray — mediastinal mass (ALL), infections",
+              "CT scan of chest/abdomen/pelvis — lymphadenopathy, organomegaly",
+              "MRI brain/spine — CNS involvement",
+              "PET scan — disease extent in some cases"
+            ],
+            "biopsy": "Bone marrow aspiration and trephine biopsy — definitive diagnostic procedure; assesses cellularity, blast percentage, morphology",
+            "histopathological_examination": "H&E staining, special stains (myeloperoxidase, PAS), immunohistochemistry (CD markers), cytogenetics (karyotype), FISH, molecular PCR for gene mutations"
+          }
+        },
+        "histopathology": {
+          "microscopic_findings": [
+            "AML: Presence of ≥20% myeloid blasts in bone marrow; Auer rods (pink crystalline inclusions) in myeloid blasts",
+            "ALL: Sheets of lymphoblasts with scant cytoplasm, fine chromatin, inconspicuous nucleoli",
+            "CML: Hypercellular marrow with all myeloid stages; increased basophils and eosinophils",
+            "CLL: Effacement of marrow architecture by small, mature-appearing lymphocytes with 'smudge cells' on peripheral smear"
+          ],
+          "tissue_changes": [
+            "Replacement of normal hematopoietic elements by leukemic infiltrate",
+            "Fat cell displacement in hypercellular marrow",
+            "Fibrosis (reticulin fibrosis) in some subtypes",
+            "Necrosis in advanced disease"
+          ],
+          "cellular_characteristics": [
+            "High nuclear-to-cytoplasmic ratio",
+            "Prominent or multiple nucleoli",
+            "Irregular nuclear contours",
+            "Mitotic figures (indicating rapid proliferation)",
+            "Aberrant immunophenotype (expression of lineage-inappropriate markers)"
+          ]
+        },
+        "biomarkers": {
+          "diagnostic_biomarkers": [
+            "CD19, CD20, CD23, CD5 — CLL (B-cell markers)",
+            "CD13, CD33, CD117, MPO — AML (myeloid markers)",
+            "CD10, CD19, TdT — ALL (B-lymphoblastic markers)",
+            "CD3, CD7, TdT — T-ALL markers",
+            "BCR-ABL1 transcript — CML and Ph+ ALL"
+          ],
+          "prognostic_biomarkers": [
+            "FLT3-ITD mutation (poor prognosis in AML)",
+            "NPM1 mutation (favorable in AML without FLT3-ITD)",
+            "CEBPA biallelic mutation (favorable AML)",
+            "TP53 mutation (poor prognosis)",
+            "ZAP-70, CD38 expression (poor prognosis in CLL)",
+            "Minimal residual disease (MRD) status post-treatment",
+            "Cytogenetic risk group (favorable, intermediate, adverse)"
+          ],
+          "genetic_markers": [
+            "t(9;22) BCR-ABL1 — Philadelphia chromosome (CML, Ph+ ALL)",
+            "t(15;17) PML-RARA — AML-M3 (APL), responsive to ATRA",
+            "t(8;21) RUNX1-RUNX1T1 — favorable AML",
+            "inv(16) CBFB-MYH11 — favorable AML",
+            "del(17p), del(11q) — poor prognosis CLL",
+            "ETV6-RUNX1 — favorable childhood ALL",
+            "MYC rearrangement — aggressive ALL/lymphoma"
+          ]
+        },
+        "treatment": {
+          "first_line_treatment": "Induction chemotherapy to achieve complete remission, followed by consolidation and maintenance therapy based on disease type and risk stratification.",
+          "medications": [
+            "Cytarabine (Ara-C) — cornerstone of AML induction",
+            "Daunorubicin/Idarubicin — anthracyclines for AML",
+            "Vincristine, Prednisone, Asparaginase — ALL induction",
+            "Methotrexate — ALL CNS prophylaxis and consolidation",
+            "Hydroxyurea — CML cytoreduction",
+            "Chlorambucil/Fludarabine — CLL",
+            "All-trans retinoic acid (ATRA) — AML-M3 differentiation therapy"
+          ],
+          "surgery": "Not applicable as primary treatment; used for organ complications or diagnostic procedures (splenectomy in select CLL cases).",
+          "chemotherapy": [
+            "AML: '7+3' regimen (7 days Ara-C + 3 days anthracycline)",
+            "ALL: Multi-agent protocols (hyper-CVAD, BFM protocol)",
+            "CML: Previously hydroxyurea + busulfan; now replaced by TKIs",
+            "CLL: FCR (Fludarabine, Cyclophosphamide, Rituximab)"
+          ],
+          "radiotherapy": [
+            "CNS prophylaxis (cranial irradiation) in high-risk ALL",
+            "Total body irradiation (TBI) as conditioning before stem cell transplant",
+            "Localized irradiation for extramedullary disease"
+          ],
+          "immunotherapy": [
+            "Rituximab (anti-CD20) — CLL, ALL",
+            "Blinatumomab (BiTE antibody, CD19xCD3) — relapsed/refractory B-ALL",
+            "Inotuzumab ozogamicin (anti-CD22 ADC) — B-ALL",
+            "CAR T-cell therapy (Tisagenlecleucel, Axicabtagene) — relapsed/refractory ALL and CLL",
+            "Checkpoint inhibitors (investigational in some leukemias)"
+          ],
+          "targeted_therapy": [
+            "Imatinib (Gleevec), Dasatinib, Nilotinib — BCR-ABL1 TKIs for CML",
+            "Midostaurin, Gilteritinib — FLT3 inhibitors for AML",
+            "Enasidenib, Ivosidenib — IDH2/IDH1 inhibitors for AML",
+            "Venetoclax (BCL-2 inhibitor) — CLL + AML",
+            "Ibrutinib, Acalabrutinib — BTK inhibitors for CLL",
+            "Gemtuzumab ozogamicin — anti-CD33 ADC for AML"
+          ]
+        },
+        "complications": {
+          "short_term": [
+            "Febrile neutropenia and life-threatening infections",
+            "Hemorrhage due to thrombocytopenia",
+            "Anemia requiring transfusions",
+            "Tumor lysis syndrome (TLS) — electrolyte imbalance, renal failure",
+            "Disseminated intravascular coagulation (DIC)",
+            "Leukostasis (with extreme leukocytosis)",
+            "Chemotherapy toxicity (mucositis, nausea, alopecia, cardiotoxicity)"
+          ],
+          "long_term": [
+            "Secondary malignancies from chemotherapy/radiation",
+            "Infertility from alkylating agents",
+            "Cardiomyopathy from anthracyclines",
+            "Cognitive impairment ('chemo brain')",
+            "Graft-versus-host disease (GVHD) after stem cell transplant",
+            "Chronic fatigue",
+            "Relapse of leukemia",
+            "Endocrine dysfunction"
+          ]
+        },
+        "prevention": {
+          "prevention_methods": [
+            "Avoid known carcinogens (benzene, pesticides)",
+            "Minimize unnecessary radiation exposure",
+            "Occupational safety measures in high-risk environments",
+            "Genetic counseling for familial predisposition syndromes"
+          ],
+          "lifestyle_modifications": [
+            "Smoking cessation (reduces AML risk)",
+            "Healthy diet and regular exercise (general cancer risk reduction)",
+            "Limit alcohol consumption"
+          ],
+          "screening_recommendations": [
+            "No routine population-based screening available for leukemia",
+            "Genetic screening for high-risk individuals (e.g., Down syndrome monitoring)",
+            "Surveillance for treatment-related leukemia in prior cancer patients",
+            "Regular CBC monitoring in high-risk occupational groups"
+          ]
+        },
+        "prognosis": {
+          "survival_rate": "Highly variable by type: ALL in children has >90% 5-year survival with modern treatment; adult AML has ~30-40% 5-year OS; CML on TKI has near-normal life expectancy; CLL is often indolent with median survival >10 years.",
+          "disease_progression": "Acute leukemias progress rapidly within weeks without treatment. CML progresses through chronic, accelerated, and blast crisis phases over months to years. CLL progresses slowly, often monitored without treatment initially ('watch and wait').",
+          "recurrence": "Relapse is the primary cause of treatment failure. AML relapse carries poor prognosis. ALL relapse requires intensive salvage therapy. MRD monitoring guides relapse prediction."
+        },
+        "clinical_guidelines": {
+          "WHO": "WHO Classification of Tumours of Haematopoietic and Lymphoid Tissues (5th Edition, 2022) — defines diagnostic criteria and classification for all leukemia subtypes.",
+          "NCI": "NCI PDQ Cancer Information Summaries — Adult Acute Myeloid Leukemia Treatment; Adult Acute Lymphoblastic Leukemia Treatment; Chronic Myelogenous Leukemia Treatment; Chronic Lymphocytic Leukemia Treatment. Available at: https://www.cancer.gov/types/leukemia"
+        },
+        "research_literature": {
+          "review_articles": [
+            {
+              "title": "Acute Myeloid Leukemia",
+              "authors": "Döhner H, Wei AH, Löwenberg B",
+              "journal": "New England Journal of Medicine",
+              "year": 2023,
+              "pmid": "36988593",
+              "summary": "Comprehensive review of AML pathogenesis, molecular classification, and emerging therapies."
+            },
+            {
+              "title": "Chronic Lymphocytic Leukemia",
+              "authors": "Hallek M, Al-Sawaf O",
+              "journal": "Hematology American Society Hematology Education Program",
+              "year": 2021,
+              "pmid": "34889363",
+              "summary": "Review of CLL biology, prognostic markers, and novel targeted therapies."
+            },
+            {
+              "title": "Philadelphia chromosome-positive acute lymphoblastic leukemia",
+              "authors": "Jabbour E, et al.",
+              "journal": "Cancer",
+              "year": 2018,
+              "pmid": "29377147",
+              "summary": "Treatment strategies and outcomes for Ph+ ALL in the TKI era."
+            },
+            {
+              "title": "Chronic Myeloid Leukemia: 2022 Update on Diagnosis, Therapy, and Monitoring",
+              "authors": "Hochhaus A, et al.",
+              "journal": "American Journal of Hematology",
+              "year": 2022,
+              "pmid": "34806207",
+              "summary": "ELN 2020 recommendations for CML management and treatment-free remission goals."
+            },
+            {
+              "title": "CAR T-Cell Therapy for Hematologic Malignancies",
+              "authors": "June CH, Sadelain M",
+              "journal": "New England Journal of Medicine",
+              "year": 2018,
+              "pmid": "29869578",
+              "summary": "Review of CAR T-cell therapy mechanisms and clinical outcomes in leukemia and lymphoma."
+            }
+          ],
+          "pathology_reference": "WHO Classification of Tumours of Haematopoietic and Lymphoid Tissues, 5th ed. IARC, Lyon, 2022. Swerdlow SH, et al. (eds)."
+        }
+      },
+
+      "melanoma": {
+        "basic_information": {
+          "disease_name": "Melanoma",
+          "definition": "Melanoma is a malignant tumor arising from melanocytes — the pigment-producing cells of the skin (and occasionally mucous membranes, eyes, and other sites). It is the most dangerous form of skin cancer due to its high metastatic potential.",
+          "overview": "Melanoma accounts for only ~1% of skin cancers but causes the majority of skin cancer deaths. It can occur anywhere on the body, including areas not exposed to sunlight. While UV radiation is the primary environmental cause, genetic predispositions play a significant role. Early detection is critical, as localized melanoma has an excellent prognosis whereas metastatic melanoma has historically been fatal, though immunotherapy and targeted therapy have dramatically improved outcomes."
+        },
+        "causes": {
+          "causes": [
+            "Ultraviolet (UV) radiation exposure (sunlight, tanning beds)",
+            "DNA damage in melanocytes leading to BRAF, NRAS, NF1, or KIT mutations",
+            "Somatic mutations accumulating in melanocytic nevi",
+            "Rare germline mutations (CDKN2A, CDK4, BAP1)"
+          ],
+          "risk_factors": [
+            "Fair skin, light hair, blue/green eyes",
+            "History of sunburns (especially blistering sunburns in childhood)",
+            "High UV exposure (geographic latitude, outdoor occupation)",
+            "Tanning bed use",
+            "Large number of moles (>50 common nevi)",
+            "Atypical (dysplastic) nevi",
+            "Personal or family history of melanoma",
+            "Immunosuppression (organ transplant recipients, HIV)",
+            "CDKN2A germline mutation",
+            "Xeroderma pigmentosum"
+          ]
+        },
+        "pathophysiology": {
+          "disease_mechanism": "Melanoma develops from transformed melanocytes that acquire sequential genetic mutations disrupting cell cycle regulation, apoptosis, and invasion. The MAPK signaling pathway (RAS-RAF-MEK-ERK) is activated in most melanomas, predominantly through BRAF V600E mutation. Tumor progression follows a radial growth phase (horizontal spread within epidermis) then vertical growth phase (dermal invasion), enabling metastasis via lymphatics and blood.",
+          "cellular_changes": [
+            "BRAF V600E mutation (~50% of cutaneous melanomas) — constitutive MAPK activation",
+            "NRAS mutations (~20%) — activates MAPK and PI3K pathways",
+            "NF1 loss-of-function mutations (~15%) — RAS hyperactivation",
+            "CDKN2A deletion — loss of p16 tumor suppressor, cell cycle dysregulation",
+            "TERT promoter mutation — telomerase reactivation enabling immortalization",
+            "Epithelial-mesenchymal transition enabling invasion",
+            "MHC downregulation for immune evasion",
+            "PD-L1 upregulation — suppression of cytotoxic T-cell response"
+          ]
+        },
+        "classification": {
+          "types": {
+            "Superficial_Spreading_Melanoma": "Most common type (~70%); horizontal radial growth phase; irregular borders and color variation; occurs on trunk (men) and legs (women).",
+            "Nodular_Melanoma": "~15-20%; aggressive vertical growth from outset; often amelanotic; rapidly enlarging raised nodule.",
+            "Lentigo_Maligna_Melanoma": "~5-10%; occurs on chronically sun-damaged skin (face, neck) in older adults; slow-growing precursor lentigo maligna.",
+            "Acral_Lentiginous_Melanoma": "Occurs on palms, soles, subungual areas; most common melanoma in dark-skinned populations; associated with KIT mutations.",
+            "Mucosal_Melanoma": "Rare; occurs in oral, nasal, anogenital, or gastrointestinal mucosa; poor prognosis.",
+            "Uveal_Melanoma": "Arises in choroid, ciliary body, or iris; high risk of liver metastasis; associated with GNA11/GNAQ mutations.",
+            "Desmoplastic_Melanoma": "Rare; neurotropic, spindle cell variant; occurs in head/neck; high local recurrence."
+          }
+        },
+        "clinical_presentation": {
+          "early_symptoms": [
+            "New or changing mole",
+            "Asymmetric pigmented lesion (ABCDE criteria: Asymmetry, Border irregularity, Color variation, Diameter >6mm, Evolution/change)",
+            "Itching or tingling in existing mole",
+            "Darkening or color change in a skin lesion"
+          ],
+          "common_symptoms": [
+            "Irregular, multicolored pigmented lesion (shades of brown, black, red, white, blue)",
+            "Irregular, notched borders",
+            "Bleeding, ulceration, or crusting of a lesion",
+            "Satellite lesions around primary tumor",
+            "Enlarged regional lymph nodes"
+          ],
+          "advanced_symptoms": [
+            "Palpable lymph node metastases (regional)",
+            "Bone pain (skeletal metastases)",
+            "Headache, seizures, focal neurological deficits (brain metastases)",
+            "Shortness of breath (pulmonary metastases)",
+            "Weight loss, fatigue, anorexia (systemic disease)",
+            "Abdominal pain (liver or GI metastases)",
+            "Elevated LDH (associated with widespread metastatic disease)"
+          ]
+        },
+        "diagnosis": {
+          "physical_examination": [
+            "Full skin examination (total body skin exam)",
+            "Dermoscopy (dermatoscopy) — enhances visualization of subsurface structures",
+            "Lymph node palpation",
+            "Abdominal examination for hepatomegaly"
+          ],
+          "laboratory_tests": {
+            "blood_tests": [
+              "LDH — prognostic marker in metastatic melanoma",
+              "S100B protein — melanoma-specific biomarker",
+              "Melanoma inhibitory activity (MIA) protein",
+              "CBC and metabolic panel — baseline before systemic therapy"
+            ],
+            "imaging": [
+              "Ultrasound of regional lymph nodes",
+              "CT scan (chest/abdomen/pelvis) — metastasis staging",
+              "PET-CT scan — whole-body staging in stage III-IV",
+              "MRI brain — detect cerebral metastases",
+              "Bone scan — if bone metastasis suspected"
+            ],
+            "biopsy": "Excisional biopsy with 1-3mm margins — gold standard for primary diagnosis. Incisional biopsy acceptable for large lesions. Sentinel lymph node biopsy (SLNB) for tumors >1mm Breslow thickness.",
+            "histopathological_examination": "H&E staining of excised specimen; Breslow thickness measurement (mm); Clark level; ulceration assessment; mitotic rate; lymphovascular invasion; microsatellites; margins assessment"
+          }
+        },
+        "histopathology": {
+          "microscopic_findings": [
+            "Atypical melanocytes at dermal-epidermal junction arranged in irregular nests",
+            "Upward (pagetoid) spread of melanocytes into epidermis (superficial spreading type)",
+            "Vertical growth phase: atypical melanocytes invading dermis and forming expansile nodule",
+            "Nuclear pleomorphism, prominent eosinophilic nucleoli ('owl eyes')",
+            "High mitotic rate including atypical mitoses",
+            "Ulceration of overlying epidermis",
+            "Tumor-infiltrating lymphocytes (TILs) — variable and prognostically relevant",
+            "Desmoplastic melanoma: spindle cells in fibrous stroma, neurotropism"
+          ],
+          "tissue_changes": [
+            "Epidermal consumption and ulceration",
+            "Dermal invasion with displacement of collagen",
+            "Lymphovascular invasion",
+            "Perineural invasion (desmoplastic type)",
+            "Regression areas (fibrosis, melanophages, telangiectasia)"
+          ],
+          "cellular_characteristics": [
+            "Epithelioid, spindled, or mixed cell morphology",
+            "Abundant finely granular cytoplasm (may be pigmented)",
+            "Large, irregular, hyperchromatic nuclei",
+            "Prominent nucleoli",
+            "Positive for S100, SOX10, HMB-45, Melan-A/MART-1 by IHC"
+          ]
+        },
+        "biomarkers": {
+          "diagnostic_biomarkers": [
+            "S100B — most sensitive melanoma marker by IHC",
+            "HMB-45 (gp100) — melanoma-specific, less sensitive",
+            "Melan-A/MART-1 — specific for melanocytic differentiation",
+            "SOX10 — highly sensitive transcription factor marker",
+            "MiTF (Microphthalmia transcription factor)",
+            "PNL2 — additional melanocytic marker"
+          ],
+          "prognostic_biomarkers": [
+            "Breslow thickness (primary prognostic factor)",
+            "Ulceration (worsens prognosis, upstages T category)",
+            "Mitotic rate (>/=1/mm² adversely affects prognosis)",
+            "LDH level (elevated = stage M1c in metastatic disease)",
+            "Sentinel lymph node status",
+            "PD-L1 expression (predictive of immunotherapy response)"
+          ],
+          "genetic_markers": [
+            "BRAF V600E/V600K mutation — present in ~50%; predictive of BRAF inhibitor response",
+            "NRAS Q61 mutation — ~20%; may predict MEK inhibitor response",
+            "NF1 mutation — ~15%; defines 'triple-wild-type' subgroup",
+            "KIT mutation/amplification — acral/mucosal subtypes; imatinib-sensitive",
+            "CDKN2A deletion — germline mutation in familial melanoma",
+            "GNAQ/GNA11 — uveal melanoma; MEK inhibitor target",
+            "TMB (Tumor Mutational Burden) — predictive of immunotherapy response"
+          ]
+        },
+        "treatment": {
+          "first_line_treatment": "Wide local excision (WLE) with appropriate surgical margins based on Breslow thickness for localized disease. Systemic therapy (immunotherapy or targeted therapy) for stage III-IV disease.",
+          "medications": [
+            "Pembrolizumab — anti-PD-1 immunotherapy (adjuvant and advanced disease)",
+            "Nivolumab — anti-PD-1 immunotherapy",
+            "Ipilimumab — anti-CTLA-4 immunotherapy",
+            "Dabrafenib + Trametinib — BRAF+MEK inhibitor combination (BRAF-mutant)",
+            "Vemurafenib + Cobimetinib — BRAF+MEK inhibitor combination",
+            "Encorafenib + Binimetinib — BRAF+MEK inhibitor combination"
+          ],
+          "surgery": [
+            "Wide local excision (WLE): margins 0.5cm for in situ; 1cm for T1; 1-2cm for T2; 2cm for T3-T4",
+            "Sentinel lymph node biopsy (SLNB) — for tumors >1mm Breslow thickness",
+            "Complete lymph node dissection (CLND) — when SLNB positive (selective use)",
+            "Resection of isolated metastases (oligometastatic disease)",
+            "Surgery for brain metastases"
+          ],
+          "chemotherapy": [
+            "Dacarbazine (DTIC) — historical standard; now rarely used",
+            "Temozolomide — oral alkylating agent (cross BBB for CNS disease)",
+            "Carboplatin + paclitaxel — occasional salvage use",
+            "Chemotherapy largely replaced by immunotherapy and targeted therapy"
+          ],
+          "radiotherapy": [
+            "Adjuvant radiotherapy to nodal basin after high-risk lymph node dissection",
+            "Stereotactic radiosurgery (SRS) — brain metastases",
+            "Whole-brain radiotherapy (WBRT) — multiple brain metastases",
+            "Palliative radiation for bone, soft tissue metastases"
+          ],
+          "immunotherapy": [
+            "Pembrolizumab (anti-PD-1) — FDA-approved for adjuvant stage IIB-IV and advanced melanoma",
+            "Nivolumab (anti-PD-1) — FDA-approved for adjuvant and advanced melanoma",
+            "Ipilimumab (anti-CTLA-4) — used in combination with nivolumab",
+            "Nivolumab + Ipilimumab — superior PFS/OS in metastatic melanoma vs. monotherapy",
+            "Talimogene laherparepvec (T-VEC) — oncolytic virus (intralesional injection for unresectable stage IIIB-IVM1a)",
+            "Relatlimab + Nivolumab (anti-LAG-3 + anti-PD-1) — approved for unresectable/metastatic melanoma"
+          ],
+          "targeted_therapy": [
+            "BRAF inhibitors: Vemurafenib, Dabrafenib, Encorafenib",
+            "MEK inhibitors: Trametinib, Cobimetinib, Binimetinib",
+            "BRAF+MEK combination preferred over monotherapy (prevents resistance)",
+            "KIT inhibitors (Imatinib) — KIT-mutant acral/mucosal melanoma",
+            "MEK inhibitors (Trametinib, Binimetinib, Selumetinib) — uveal melanoma (investigational)"
+          ]
+        },
+        "complications": {
+          "short_term": [
+            "Surgical wound complications (infection, hematoma, seroma, dehiscence)",
+            "Lymphedema after lymph node dissection",
+            "Immune-related adverse events (irAEs) from immunotherapy: colitis, hepatitis, pneumonitis, endocrinopathy, dermatitis",
+            "Skin toxicity from BRAF/MEK inhibitors (rash, photosensitivity, squamous cell carcinomas)",
+            "Fever syndrome from BRAF inhibitors"
+          ],
+          "long_term": [
+            "Lymphedema (persistent after lymphadenectomy)",
+            "Secondary cutaneous malignancies (squamous cell carcinoma from vemurafenib)",
+            "Permanent endocrine dysfunction (hypothyroidism, adrenal insufficiency from immunotherapy)",
+            "Chronic immune-related adverse events",
+            "Psychological impact and surveillance anxiety",
+            "Brain metastases with neurological sequelae",
+            "Acquired resistance to targeted therapy (median ~10-12 months)"
+          ]
+        },
+        "prevention": {
+          "prevention_methods": [
+            "UV protection: sunscreen (SPF 30+), protective clothing, hats",
+            "Avoid midday sun exposure (10 AM – 4 PM)",
+            "Avoidance of tanning beds (linked to ~75% increased risk)",
+            "Regular skin self-examination using ABCDE criteria",
+            "Genetic counseling for CDKN2A mutation carriers"
+          ],
+          "lifestyle_modifications": [
+            "Daily broad-spectrum sunscreen application",
+            "Wearing UV-protective clothing and wide-brimmed hats",
+            "Seeking shade during peak UV hours",
+            "Avoiding intentional tanning",
+            "Vitamin D supplementation to compensate for sun avoidance"
+          ],
+          "screening_recommendations": [
+            "Annual total body skin examination by dermatologist for high-risk individuals",
+            "Genetic testing and surveillance for CDKN2A mutation families",
+            "Dermoscopy-enhanced monitoring for atypical nevi",
+            "Monthly self-skin examination recommended by AAD",
+            "Ophthalmologic monitoring for uveal melanoma risk factors"
+          ]
+        },
+        "prognosis": {
+          "survival_rate": "Stage I: ~95-99% 5-year OS; Stage II: ~65-85%; Stage III: ~40-70% (varies by substage); Stage IV (metastatic): historically <10% at 5 years, now ~50% with modern immunotherapy combinations.",
+          "disease_progression": "Melanoma can progress rapidly from localized to metastatic disease. Common metastatic sites include regional lymph nodes, skin (in-transit/satellite), lung, brain, liver, and bone. Brain metastases occur in up to 50% of patients with advanced disease.",
+          "recurrence": "Recurrence risk correlates with Breslow thickness and lymph node status. Most recurrences occur within 5 years. Adjuvant immunotherapy reduces recurrence risk by ~35-40%. Lifelong surveillance is recommended."
+        },
+        "clinical_guidelines": {
+          "WHO": "WHO Cancer Fact Sheet — Skin Cancer/Melanoma. WHO IARC data on melanoma incidence and prevention. Available at: https://www.who.int/news-room/fact-sheets/detail/skin-cancers",
+          "NCI": "NCI PDQ Melanoma Treatment Summary; NCI Melanoma Staging (AJCC 8th Edition). Available at: https://www.cancer.gov/types/skin/patient/melanoma-treatment-pdq"
+        },
+        "research_literature": {
+          "review_articles": [
+            {
+              "title": "Melanoma",
+              "authors": "Schadendorf D, van Akkooi ACJ, Berking C, et al.",
+              "journal": "Lancet",
+              "year": 2018,
+              "pmid": "29397212",
+              "summary": "Comprehensive review of melanoma epidemiology, pathogenesis, diagnosis, and treatment."
+            },
+            {
+              "title": "Adjuvant Pembrolizumab versus Placebo in Resected Stage III Melanoma",
+              "authors": "Eggermont AMM, et al. (KEYNOTE-054)",
+              "journal": "New England Journal of Medicine",
+              "year": 2018,
+              "pmid": "29658430",
+              "summary": "Landmark trial demonstrating improved RFS with adjuvant pembrolizumab in stage III melanoma."
+            },
+            {
+              "title": "Combined BRAF and MEK Inhibition versus BRAF Inhibition Alone in Melanoma",
+              "authors": "Long GV, et al.",
+              "journal": "New England Journal of Medicine",
+              "year": 2014,
+              "pmid": "25265495",
+              "summary": "Combination BRAF+MEK inhibition improves outcomes vs. BRAF monotherapy in BRAF-mutant melanoma."
+            },
+            {
+              "title": "Five-Year Survival with Combined Nivolumab and Ipilimumab in Advanced Melanoma",
+              "authors": "Larkin J, et al. (CheckMate 067)",
+              "journal": "New England Journal of Medicine",
+              "year": 2019,
+              "pmid": "31562797",
+              "summary": "CheckMate 067 5-year data: ~52% OS with nivolumab+ipilimumab in metastatic melanoma."
+            },
+            {
+              "title": "Genomics of Melanoma",
+              "authors": "Shain AH, Bastian BC",
+              "journal": "Nature Reviews Cancer",
+              "year": 2016,
+              "pmid": "27125354",
+              "summary": "Comprehensive overview of the genomic landscape of melanoma subtypes."
+            }
+          ],
+          "pathology_reference": "Weedon's Skin Pathology, 4th ed. Weedon D. Churchill Livingstone, 2016. Chapter on Melanocytic Tumors."
+        }
+      },
+
+      "lung_cancer": {
+        "basic_information": {
+          "disease_name": "Lung Cancer",
+          "definition": "Lung cancer is a malignant neoplasm originating from the epithelial cells of the lung. It is the leading cause of cancer-related death worldwide, broadly classified into non-small cell lung cancer (NSCLC) and small cell lung cancer (SCLC).",
+          "overview": "Lung cancer is responsible for more deaths annually than breast, colorectal, and prostate cancers combined. The overwhelming majority (~85%) of cases are attributed to tobacco smoking. Advances in molecular profiling have transformed treatment, with targeted therapies for specific driver mutations (EGFR, ALK, ROS1, BRAF, MET, RET, KRAS) and immunotherapy significantly improving survival in selected patients."
+        },
+        "causes": {
+          "causes": [
+            "Tobacco smoking (primary cause; responsible for ~80-85% of lung cancers)",
+            "Secondhand smoke exposure",
+            "Radon gas exposure (leading cause in non-smokers)",
+            "Occupational carcinogens (asbestos, arsenic, chromium, nickel, diesel fumes)",
+            "Air pollution (particulate matter PM2.5)",
+            "Genetic susceptibility and driver mutations",
+            "Prior lung diseases (COPD, pulmonary fibrosis, tuberculosis)",
+            "Prior radiation therapy to chest"
+          ],
+          "risk_factors": [
+            "Tobacco smoking (current or former; pack-year history)",
+            "Age >45 years",
+            "Family history of lung cancer",
+            "Occupational exposure to asbestos, radon, heavy metals",
+            "Living in high air pollution areas",
+            "Chronic obstructive pulmonary disease (COPD)",
+            "Pulmonary fibrosis",
+            "HIV infection",
+            "Genetic mutations (EGFR, KRAS germline variants in some families)"
+          ]
+        },
+        "pathophysiology": {
+          "disease_mechanism": "Lung carcinogenesis is a multi-step process initiated by carcinogen-induced DNA damage (primarily from tobacco smoke containing 60+ known carcinogens). Key oncogenic pathways include EGFR-RAS-MAPK, PI3K-AKT-mTOR, and ALK signaling. Tumor suppressor inactivation (TP53, RB1, CDKN2A) combined with oncogene activation leads to uncontrolled cell proliferation, invasion, and metastasis.",
+          "cellular_changes": [
+            "KRAS mutations — most common in smokers with adenocarcinoma (~30%)",
+            "EGFR activating mutations — exon 19 deletion, exon 21 L858R (~15% overall; higher in Asian non-smokers, women)",
+            "ALK rearrangements — EML4-ALK fusion (~5%)",
+            "ROS1 rearrangements (~2%)",
+            "BRAF V600E mutations (~2-3%)",
+            "MET exon 14 skipping mutations (~3-4%)",
+            "RET fusions (~2%)",
+            "NTRK fusions (rare)",
+            "TP53 mutation (most common tumor suppressor loss)",
+            "RB1 loss — near universal in SCLC",
+            "PD-L1 overexpression — immune checkpoint evasion"
+          ]
+        },
+        "classification": {
+          "types": {
+            "NSCLC": {
+              "Adenocarcinoma": "Most common NSCLC (~40% of all lung cancers); peripheral location; associated with EGFR, ALK, ROS1, KRAS mutations; predominant type in non-smokers and women.",
+              "Squamous_Cell_Carcinoma": "~25-30% of NSCLC; central location near bronchi; strongly linked to smoking; FGFR1 amplification, DDR2 mutations.",
+              "Large_Cell_Carcinoma": "~10-15%; poorly differentiated; diagnosis of exclusion; rapid growth.",
+              "Other_NSCLC": "Adenosquamous, sarcomatoid carcinoma, carcinoid tumors"
+            },
+            "SCLC": "Small Cell Lung Cancer (~15%); neuroendocrine origin; very aggressive; rapid growth; early metastasis; paraneoplastic syndromes; almost exclusively in smokers; classified as limited-stage or extensive-stage."
+          }
+        },
+        "clinical_presentation": {
+          "early_symptoms": [
+            "Persistent new cough or change in chronic cough",
+            "Mild dyspnea on exertion",
+            "Incidental finding on chest imaging",
+            "Often asymptomatic in early stages"
+          ],
+          "common_symptoms": [
+            "Hemoptysis (coughing blood)",
+            "Chest pain (pleuritic or dull, persistent)",
+            "Progressive dyspnea",
+            "Unexplained weight loss",
+            "Fatigue and loss of appetite",
+            "Recurrent respiratory infections (pneumonia, bronchitis)",
+            "Wheezing or stridor"
+          ],
+          "advanced_symptoms": [
+            "Hoarseness (recurrent laryngeal nerve involvement)",
+            "Dysphagia (esophageal compression)",
+            "Superior vena cava (SVC) syndrome (facial/arm swelling, plethora)",
+            "Horner's syndrome (ptosis, miosis, anhidrosis) — Pancoast tumor",
+            "Bone pain (skeletal metastases)",
+            "Headache, seizures (brain metastases — common in adenocarcinoma, SCLC)",
+            "Jaundice (liver metastases)",
+            "Paraneoplastic syndromes: SIADH (SCLC), Cushing's syndrome, Lambert-Eaton myasthenic syndrome, hypercalcemia (squamous cell)"
+          ]
+        },
+        "diagnosis": {
+          "physical_examination": [
+            "Decreased breath sounds, dullness to percussion (pleural effusion)",
+            "Signs of SVC syndrome",
+            "Lymphadenopathy (supraclavicular, cervical)",
+            "Finger clubbing",
+            "Signs of Horner's syndrome"
+          ],
+          "laboratory_tests": {
+            "blood_tests": [
+              "CBC — anemia of chronic disease",
+              "Comprehensive metabolic panel — liver function, calcium level",
+              "LDH — tumor burden marker",
+              "CEA (carcinoembryonic antigen) — elevated in adenocarcinoma",
+              "NSE (neuron-specific enolase) — SCLC marker",
+              "ProGRP (pro-gastrin-releasing peptide) — SCLC marker"
+            ],
+            "imaging": [
+              "Chest X-ray — initial evaluation (mass, effusion, atelectasis)",
+              "CT chest with contrast — primary tumor characterization, lymph nodes",
+              "PET-CT — whole-body staging (M staging)",
+              "MRI brain — brain metastasis detection (mandatory before curative intent treatment)",
+              "Bone scan — skeletal metastases (if PET not available)",
+              "CT-guided biopsy — peripheral lesions",
+              "Endobronchial ultrasound (EBUS) — mediastinal staging"
+            ],
+            "biopsy": "Bronchoscopy with BAL, brushings, biopsy — central tumors. CT-guided percutaneous needle biopsy — peripheral lesions. Endobronchial ultrasound-guided biopsy (EBUS-TBNA) — mediastinal/hilar lymph nodes. Video-assisted thoracoscopic surgery (VATS) — pleural disease or diagnostic lobectomy.",
+            "histopathological_examination": "H&E staining, IHC panel (TTF-1, p40/p63, CK5/6, synaptophysin, CD56, chromogranin); molecular profiling for driver mutations; PD-L1 expression by TPS scoring; TMB assessment"
+          }
+        },
+        "histopathology": {
+          "microscopic_findings": [
+            "Adenocarcinoma: acinar, papillary, micropapillary, lepidic, or solid growth patterns; mucin production; TTF-1 positive; lepidic pattern (former BAC) grows along alveolar walls",
+            "Squamous cell carcinoma: keratinization, intercellular bridges, pearls; p40/p63/CK5/6 positive",
+            "SCLC: sheets of small cells with scant cytoplasm, 'salt and pepper' chromatin, nuclear molding, extensive necrosis; Ki-67 >70%; synaptophysin/CD56/chromogranin positive",
+            "Large cell carcinoma: sheets of large pleomorphic cells without squamous/glandular/neuroendocrine differentiation"
+          ],
+          "tissue_changes": [
+            "Stromal desmoplasia",
+            "Lymphovascular invasion",
+            "Perineural invasion",
+            "Pleural invasion",
+            "Tumor necrosis (especially SCLC)",
+            "Lymphocytic infiltration (TILs)"
+          ],
+          "cellular_characteristics": [
+            "Adenocarcinoma: columnar cells, glandular architecture, intracytoplasmic mucin",
+            "Squamous: polygonal cells, abundant pink cytoplasm, keratin pearls",
+            "SCLC: oval cells ~2x lymphocyte size, minimal cytoplasm, crush artifact on biopsy",
+            "High mitotic rate in all subtypes"
+          ]
+        },
+        "biomarkers": {
+          "diagnostic_biomarkers": [
+            "TTF-1 (Thyroid Transcription Factor-1) — adenocarcinoma marker",
+            "p40/p63, CK5/6 — squamous cell carcinoma markers",
+            "Synaptophysin, Chromogranin A, CD56 — neuroendocrine/SCLC markers",
+            "CEA — adenocarcinoma (serum and IHC)",
+            "Napsin A — lung adenocarcinoma-specific"
+          ],
+          "prognostic_biomarkers": [
+            "KRAS mutation — historically poor prognosis; KRASG12C now targetable",
+            "STK11/LKB1 mutation — reduced immunotherapy benefit",
+            "KEAP1 mutation — reduced immunotherapy benefit, poor prognosis",
+            "TP53 mutation — adverse prognosis",
+            "Stage (TNM) — most important prognostic factor",
+            "Performance status (PS)",
+            "PD-L1 TPS ≥50% — predictive of pembrolizumab monotherapy benefit"
+          ],
+          "genetic_markers": [
+            "EGFR exon 19 del / L858R — sensitive to EGFR TKIs (osimertinib, gefitinib, erlotinib, afatinib)",
+            "ALK rearrangement — sensitive to ALK inhibitors (alectinib, crizotinib, brigatinib, lorlatinib)",
+            "ROS1 rearrangement — sensitive to crizotinib, entrectinib",
+            "BRAF V600E — sensitive to dabrafenib+trametinib",
+            "MET exon 14 skipping — sensitive to capmatinib, tepotinib",
+            "RET fusion — sensitive to selpercatinib, pralsetinib",
+            "NTRK fusion — sensitive to larotrectinib, entrectinib",
+            "KRASG12C mutation — sensitive to sotorasib, adagrasib",
+            "HER2 mutation — sensitive to trastuzumab deruxtecan (T-DXd)"
+          ]
+        },
+        "treatment": {
+          "first_line_treatment": "Stage I-II NSCLC: surgical resection (lobectomy) with curative intent. Stage III NSCLC: concurrent chemoradiation ± durvalumab. Stage IV NSCLC: systemic therapy based on molecular profile and PD-L1 status. SCLC: chemotherapy (etoposide + cisplatin/carboplatin) ± immunotherapy.",
+          "medications": [
+            "Osimertinib — 3rd generation EGFR TKI (standard of care for EGFR+ NSCLC)",
+            "Alectinib — ALK inhibitor (standard of care for ALK+ NSCLC)",
+            "Pembrolizumab — anti-PD-1 immunotherapy",
+            "Atezolizumab — anti-PD-L1 immunotherapy",
+            "Durvalumab — anti-PD-L1 (adjuvant unresectable stage III after chemoRT)",
+            "Sotorasib/Adagrasib — KRASG12C inhibitors",
+            "Cisplatin/Carboplatin + Pemetrexed — standard doublet chemotherapy for adenocarcinoma",
+            "Etoposide + Carboplatin — SCLC first-line"
+          ],
+          "surgery": [
+            "Lobectomy — standard curative surgery for stage I-II NSCLC",
+            "Sublobar resection (segmentectomy, wedge resection) — stage I in compromised patients",
+            "Pneumonectomy — rare, for central tumors",
+            "Video-Assisted Thoracoscopic Surgery (VATS) — minimally invasive approach",
+            "Robotic-assisted thoracic surgery (RATS)",
+            "Mediastinal lymph node dissection — mandatory for accurate staging"
+          ],
+          "chemotherapy": [
+            "Carboplatin + Paclitaxel — widely used doublet",
+            "Cisplatin + Pemetrexed — non-squamous NSCLC",
+            "Cisplatin + Gemcitabine — squamous cell carcinoma",
+            "Etoposide + Cisplatin/Carboplatin — SCLC",
+            "Docetaxel — second-line NSCLC",
+            "Pemetrexed — maintenance therapy in non-squamous NSCLC"
+          ],
+          "radiotherapy": [
+            "Stereotactic ablative radiotherapy (SABR/SBRT) — medically inoperable stage I-II",
+            "Concurrent chemoradiotherapy — stage III unresectable NSCLC",
+            "Prophylactic cranial irradiation (PCI) — limited-stage SCLC with complete response",
+            "Palliative radiotherapy — bone pain, SVC syndrome, brain metastases",
+            "Stereotactic radiosurgery (SRS) — limited brain metastases"
+          ],
+          "immunotherapy": [
+            "Pembrolizumab monotherapy — PD-L1 TPS ≥50% first-line NSCLC",
+            "Pembrolizumab + chemotherapy — PD-L1 any/unselected first-line NSCLC",
+            "Atezolizumab + bevacizumab + chemotherapy — first-line non-squamous NSCLC",
+            "Nivolumab + ipilimumab ± chemotherapy — first-line NSCLC",
+            "Durvalumab — adjuvant after concurrent chemoRT in unresectable stage III",
+            "Atezolizumab — adjuvant resected NSCLC (PD-L1+)",
+            "Atezolizumab + carboplatin + etoposide — extensive-stage SCLC first-line"
+          ],
+          "targeted_therapy": [
+            "EGFR inhibitors: Osimertinib (3rd gen), Erlotinib, Gefitinib, Afatinib",
+            "ALK inhibitors: Alectinib, Brigatinib, Lorlatinib, Crizotinib",
+            "ROS1 inhibitors: Entrectinib, Crizotinib",
+            "BRAF+MEK: Dabrafenib + Trametinib",
+            "MET inhibitors: Capmatinib, Tepotinib",
+            "RET inhibitors: Selpercatinib, Pralsetinib",
+            "NTRK inhibitors: Larotrectinib, Entrectinib",
+            "KRASG12C inhibitors: Sotorasib, Adagrasib",
+            "HER2-directed: Trastuzumab deruxtecan (T-DXd)",
+            "VEGF inhibitors: Bevacizumab (with chemotherapy)"
+          ]
+        },
+        "complications": {
+          "short_term": [
+            "Post-surgical: air leak, pneumonia, atelectasis, bronchopleural fistula",
+            "Chemotherapy toxicity: myelosuppression, nausea/vomiting, nephrotoxicity (cisplatin), neuropathy",
+            "Radiation pneumonitis",
+            "Immune-related adverse events from immunotherapy",
+            "Pleural effusion",
+            "Hemoptysis",
+            "Pulmonary embolism (cancer-associated thrombosis)"
+          ],
+          "long_term": [
+            "Post-pneumonectomy syndrome",
+            "Radiation fibrosis",
+            "Chronic immune-related adverse events (pneumonitis, hypothyroidism)",
+            "Acquired resistance to targeted therapy (e.g., EGFR T790M, C797S; ALK resistance mutations)",
+            "Brain metastases (very common in adenocarcinoma, SCLC)",
+            "Skeletal-related events from bone metastases",
+            "Cognitive impairment from brain radiation",
+            "Paraneoplastic syndrome complications"
+          ]
+        },
+        "prevention": {
+          "prevention_methods": [
+            "Tobacco cessation — single most effective prevention measure",
+            "Avoidance of secondhand smoke",
+            "Radon testing and mitigation in homes",
+            "Occupational safety measures (asbestos abatement, proper respiratory protection)",
+            "Air quality improvement policies"
+          ],
+          "lifestyle_modifications": [
+            "Smoking cessation (reduces risk; never too late)",
+            "Diet rich in fruits and vegetables (potential protective effect)",
+            "Regular physical activity",
+            "Avoiding indoor air pollutants"
+          ],
+          "screening_recommendations": [
+            "Annual low-dose CT (LDCT) screening for high-risk individuals:",
+            "— Age 50-80 years, with ≥20 pack-year smoking history, currently smoking or quit within 15 years (USPSTF 2021 recommendations)",
+            "— NLST and NELSON trials demonstrated 20-26% reduction in lung cancer mortality",
+            "Smoking cessation counseling should accompany screening programs"
+          ]
+        },
+        "prognosis": {
+          "survival_rate": "Stage I: ~60-90% 5-year OS (by subtype); Stage II: ~30-55%; Stage III: ~10-35%; Stage IV: historically <5%, improved to ~20-30% with modern targeted therapy and immunotherapy. SCLC limited-stage: median OS ~15-20 months; extensive-stage: median OS ~10-12 months.",
+          "disease_progression": "Lung cancer typically progresses from locoregional disease to distant metastases involving brain, bone, adrenal glands, and liver. EGFR/ALK-mutant patients have prolonged OS on targeted therapy despite metastatic disease. SCLC is characterized by initial chemosensitivity followed by rapid relapse.",
+          "recurrence": "Post-surgical recurrence in early-stage NSCLC: ~30-50% within 5 years. Adjuvant osimertinib reduces recurrence in EGFR+ stage IB-IIIA resected NSCLC by ~83%. Post-treatment surveillance with CT scans every 6 months for 2 years then annually."
+        },
+        "clinical_guidelines": {
+          "WHO": "WHO Cancer Fact Sheet — Lung Cancer. WHO International Agency for Research on Cancer (IARC) lung cancer data. Available at: https://www.who.int/news-room/fact-sheets/detail/cancer",
+          "NCI": "NCI PDQ Lung Cancer Treatment Summaries (Non-Small Cell and Small Cell); NCCN Clinical Practice Guidelines in Oncology — Non-Small Cell Lung Cancer (Version 2024). Available at: https://www.cancer.gov/types/lung"
+        },
+        "research_literature": {
+          "review_articles": [
+            {
+              "title": "Lung Cancer",
+              "authors": "Barta JA, Powell CA, Wisnivesky JP",
+              "journal": "Annals of Global Health",
+              "year": 2019,
+              "pmid": "30741509",
+              "summary": "Epidemiology, pathogenesis, diagnosis, and treatment of lung cancer globally."
+            },
+            {
+              "title": "Osimertinib in Untreated EGFR-Mutated Advanced Non-Small-Cell Lung Cancer (FLAURA)",
+              "authors": "Soria JC, et al.",
+              "journal": "New England Journal of Medicine",
+              "year": 2018,
+              "pmid": "28987136",
+              "summary": "FLAURA trial: osimertinib superior to first-generation EGFR TKIs as first-line treatment in EGFR+ NSCLC."
+            },
+            {
+              "title": "Pembrolizumab versus Chemotherapy for PD-L1-Positive Non-Small-Cell Lung Cancer (KEYNOTE-024)",
+              "authors": "Reck M, et al.",
+              "journal": "New England Journal of Medicine",
+              "year": 2016,
+              "pmid": "27718847",
+              "summary": "Pembrolizumab superior to chemotherapy as first-line treatment in NSCLC with PD-L1 TPS ≥50%."
+            },
+            {
+              "title": "Alectinib versus Crizotinib in ALK-Positive Non-Small-Cell Lung Cancer (ALEX)",
+              "authors": "Peters S, et al.",
+              "journal": "New England Journal of Medicine",
+              "year": 2017,
+              "pmid": "28586279",
+              "summary": "Alectinib superior to crizotinib in treatment-naive ALK+ NSCLC with superior CNS activity."
+            },
+            {
+              "title": "Sotorasib for Lung Cancers with KRAS p.G12C Mutation (CodeBreak 100)",
+              "authors": "Skoulidis F, et al.",
+              "journal": "New England Journal of Medicine",
+              "year": 2021,
+              "pmid": "34096690",
+              "summary": "First-in-class KRASG12C inhibitor sotorasib demonstrates clinical activity in previously treated NSCLC."
+            }
+          ],
+          "pathology_reference": "Travis WD, Brambilla E, Burke AP, Marx A, Nicholson AG (eds). WHO Classification of Tumours of the Lung, Pleura, Thymus and Heart, 4th ed. IARC Press, Lyon, 2015."
+        }
+      }
+    },
+
+    "diabetes": {
+
+      "type1_diabetes": {
+        "basic_information": {
+          "disease_name": "Type 1 Diabetes Mellitus (T1DM)",
+          "definition": "Type 1 diabetes mellitus is a chronic autoimmune disease characterized by T-cell mediated destruction of pancreatic beta cells, resulting in absolute insulin deficiency and lifelong dependence on exogenous insulin therapy.",
+          "overview": "T1DM accounts for approximately 5-10% of all diabetes cases and typically presents in childhood or young adulthood, though it can occur at any age. The hallmark is the autoimmune obliteration of islet beta cells, leading to severe insulin deficiency. Without insulin, glucose cannot enter cells for energy, and unregulated lipolysis and ketogenesis lead to the acute emergency of diabetic ketoacidosis (DKA). Management requires insulin replacement, continuous glucose monitoring, and lifestyle adjustment."
+        },
+        "causes": {
+          "causes": [
+            "Autoimmune T-cell mediated destruction of pancreatic beta cells (CD4+ and CD8+ T lymphocytes attack beta cell antigens)",
+            "Molecular mimicry triggered by environmental factors (viral infections, dietary antigens)",
+            "Genetic susceptibility genes enabling aberrant immune response to self-antigens"
+          ],
+          "risk_factors": [
+            "HLA-DR3 and HLA-DR4 alleles (strongest genetic risk factors; present in >90% of T1DM)",
+            "Family history of T1DM (sibling risk ~5-10%; offspring of affected father ~6%)",
+            "Certain viral infections (Coxsackievirus B, enteroviruses, rubella) — trigger hypothesis",
+            "Geography — higher incidence in Northern Europe (Finland highest globally)",
+            "Autoimmune diseases in patient or family (Hashimoto's thyroiditis, Addison's disease, celiac disease)",
+            "Vitamin D deficiency",
+            "Early infant dietary factors (cow's milk protein, early introduction of cereals — controversial)",
+            "Gut microbiome dysbiosis"
+          ]
+        },
+        "pathophysiology": {
+          "disease_mechanism": "T1DM is characterized by a 'pre-diabetic' phase (months to years) of ongoing beta cell autoimmunity before clinical onset. Autoreactive CD8+ T cells recognize beta cell antigens (insulin, GAD65, IA-2) and destroy beta cells. As beta cell mass declines below a critical threshold (~80-90% loss), insulin secretion becomes inadequate to maintain normoglycemia, leading to hyperglycemia. Absolute insulin deficiency causes unrestrained lipolysis, ketone body formation, and if untreated, DKA.",
+          "cellular_changes": [
+            "Insulitis — mononuclear cell (T cells, macrophages, B cells) infiltration of islets",
+            "Progressive beta cell loss; preserved alpha cell (glucagon-secreting) mass",
+            "Upregulation of MHC class I on beta cells — increased susceptibility to cytotoxic T-cell killing",
+            "Beta cell apoptosis via Fas-FasL pathway and perforin/granzyme release",
+            "Pro-inflammatory cytokine release (IL-1β, TNF-α, IFN-γ) causing direct beta cell toxicity",
+            "Loss of first-phase insulin secretion — earliest detectable physiological defect"
+          ]
+        },
+        "classification": {
+          "types": {
+            "Type_1A": "Classic autoimmune T1DM with detectable autoantibodies (most common); associated with HLA risk alleles.",
+            "Type_1B": "Idiopathic T1DM — absolute insulin deficiency without evidence of autoimmunity; rare; more common in African and Asian populations.",
+            "LADA": "Latent Autoimmune Diabetes in Adults — adult-onset T1DM misclassified as T2DM; positive autoantibodies; slower beta cell destruction.",
+            "Stages": "Stage 1: autoantibody positive, normoglycemia; Stage 2: autoantibody positive, dysglycemia; Stage 3: clinical T1DM (symptomatic hyperglycemia)"
+          }
+        },
+        "clinical_presentation": {
+          "early_symptoms": [
+            "Polyuria (excessive urination)",
+            "Polydipsia (excessive thirst)",
+            "Polyphagia (increased hunger)",
+            "Unexplained weight loss despite normal or increased appetite",
+            "Fatigue"
+          ],
+          "common_symptoms": [
+            "Classic triad: polyuria, polydipsia, polyphagia",
+            "Blurred vision (osmotic lens changes)",
+            "Recurrent infections (skin, urinary tract)",
+            "Nocturia",
+            "Fruity breath (ketones)",
+            "Abdominal pain (early DKA)"
+          ],
+          "advanced_symptoms": [
+            "Diabetic ketoacidosis (DKA): nausea, vomiting, abdominal pain, Kussmaul breathing, altered consciousness, coma",
+            "Severe dehydration",
+            "Electrolyte imbalances (hyponatremia, hyperkalemia initially then hypokalemia)",
+            "Hyperglycemic hyperosmolar state (rare in T1DM)"
+          ]
+        },
+        "diagnosis": {
+          "physical_examination": [
+            "Signs of dehydration (DKA presentation)",
+            "Kussmaul respiration (deep rapid breathing) in DKA",
+            "Fruity/acetone breath odor in DKA",
+            "Assessment of BMI (typically normal or low in T1DM)"
+          ],
+          "laboratory_tests": {
+            "blood_tests": [
+              "Fasting plasma glucose ≥126 mg/dL (7.0 mmol/L) on two occasions",
+              "Random plasma glucose ≥200 mg/dL (11.1 mmol/L) with symptoms",
+              "HbA1c ≥6.5% (48 mmol/mol) — 3-month glycemic average",
+              "C-peptide — very low or undetectable (reflects endogenous insulin secretion)",
+              "Autoantibody panel: GADA (anti-GAD65), IA-2A (anti-islet tyrosine phosphatase), IAA (anti-insulin), ZnT8A (anti-zinc transporter 8)",
+              "Blood ketones (beta-hydroxybutyrate) and urine ketones",
+              "Arterial blood gas — metabolic acidosis in DKA",
+              "Electrolytes, BUN, creatinine — baseline and DKA management",
+              "Thyroid function tests (autoimmune comorbidities screening)"
+            ],
+            "imaging": [
+              "Pancreatic imaging not routinely required for diagnosis",
+              "Ultrasound/CT to exclude pancreatic pathology if atypical presentation"
+            ],
+            "biopsy": "Pancreatic biopsy not performed in clinical practice; insulitis confirmed only in autopsy or research studies.",
+            "histopathological_examination": "Research only: insulitis with mononuclear infiltrate; dramatic reduction in beta cell mass; preserved alpha and delta cells; islet fibrosis in long-standing disease"
+          }
+        },
+        "histopathology": {
+          "microscopic_findings": [
+            "Insulitis: dense infiltration of islets by T lymphocytes, macrophages, and B cells",
+            "Selective beta cell destruction with preservation of other islet cells (alpha, delta, PP cells)",
+            "Islet atrophy and fibrosis in long-standing T1DM",
+            "Ghost islets (fibrotic remnants devoid of beta cells)",
+            "Peri-insulitis early stage: immune cells surrounding but not yet invading islets"
+          ],
+          "tissue_changes": [
+            "Progressive reduction in islet volume and beta cell mass",
+            "Replacement of islet tissue by fibrous scar tissue",
+            "Increased amyloid deposition (less prominent than T2DM)",
+            "Exocrine pancreatic atrophy (pancreas slightly reduced in size)"
+          ],
+          "cellular_characteristics": [
+            "Beta cells: pyknotic nuclei, apoptotic bodies in active insulitis",
+            "Infiltrating cells: CD8+ cytotoxic T cells, CD4+ helper T cells, macrophages, NK cells",
+            "MHC class I overexpression on remaining beta cells",
+            "Absence of normal dense, granular beta cells by Grimelius stain or insulin IHC"
+          ]
+        },
+        "biomarkers": {
+          "diagnostic_biomarkers": [
+            "GADA (Glutamic Acid Decarboxylase Antibodies) — most sensitive autoantibody (~80%)",
+            "IA-2A (Islet Antigen 2 Antibodies) — ~60% sensitivity",
+            "IAA (Insulin Autoantibodies) — most common in young children at onset",
+            "ZnT8A (Zinc Transporter 8 Antibodies) — ~60-80% sensitivity",
+            "ICA (Islet Cell Antibodies) — historically used, now supplemented by specific antibodies",
+            "C-peptide — low/undetectable confirming beta cell failure"
+          ],
+          "prognostic_biomarkers": [
+            "HbA1c — glycemic control and complication risk",
+            "Residual C-peptide — even small amounts associated with better outcomes and reduced DKA risk",
+            "eGFR and urine albumin-creatinine ratio (ACR) — renal complication monitoring",
+            "Lipid panel — cardiovascular risk",
+            "Time in range (TIR) >70% by continuous glucose monitor (CGM) — modern glycemic target"
+          ],
+          "genetic_markers": [
+            "HLA-DR3-DQ2 and HLA-DR4-DQ8 — highest genetic risk haplotypes",
+            "HLA-DR15-DQ6 (DQB1*0602) — protective haplotype",
+            "INS VNTR — insulin gene region; modifies risk",
+            "PTPN22 — protein tyrosine phosphatase; autoimmunity risk gene",
+            "CTLA4 — immune regulatory gene",
+            "IL2RA (CD25) — T-cell regulation",
+            "Polygenic risk scores (PRS) for T1DM prediction"
+          ]
+        },
+        "treatment": {
+          "first_line_treatment": "Insulin replacement therapy is mandatory and lifelong. Multiple daily injections (MDI) or continuous subcutaneous insulin infusion (CSII/insulin pump) are the two main delivery modes.",
+          "medications": [
+            "Rapid-acting insulin analogs: Lispro (Humalog), Aspart (NovoLog), Glulisine (Apidra), Ultra-rapid Fiasp",
+            "Long-acting basal insulins: Glargine (Lantus, Toujeo), Detemir (Levemir), Degludec (Tresiba)",
+            "Premixed insulins: limited use in T1DM",
+            "Teplizumab (Tzield) — FDA-approved (2022) anti-CD3 monoclonal antibody to delay clinical T1DM in Stage 2 high-risk individuals"
+          ],
+          "insulin_therapy": {
+            "multiple_daily_injections": "Basal-bolus regimen: long-acting insulin once/twice daily + rapid-acting insulin with each meal; carbohydrate counting with insulin:carb ratio",
+            "insulin_pump_CSII": "Continuous subcutaneous insulin infusion via pump; delivers basal and bolus insulin; improved flexibility and glycemic control",
+            "automated_insulin_delivery": "Closed-loop 'artificial pancreas' systems (e.g., Control-IQ, Omnipod 5); CGM-integrated insulin pump with automated adjustments",
+            "targets": "HbA1c <7% (<53 mmol/mol) for most adults; individualized targets; Time in Range (TIR) >70% (70-180 mg/dL)"
+          },
+          "lifestyle_management": [
+            "Carbohydrate counting and insulin:carb ratio calculation",
+            "Continuous glucose monitoring (CGM) use — Dexcom, Libre, Enlite",
+            "Regular physical activity with glucose monitoring adjustments",
+            "Hypoglycemia recognition and treatment (15g fast-acting carbs; glucagon kit)",
+            "Sick day management rules",
+            "Annual screening for complications"
+          ]
+        },
+        "complications": {
+          "short_term": [
+            "Diabetic Ketoacidosis (DKA) — pH <7.3, ketones positive, anion gap metabolic acidosis; life-threatening emergency",
+            "Hypoglycemia — blood glucose <70 mg/dL; severe hypoglycemia may cause loss of consciousness, seizures",
+            "Hypoglycemia unawareness — loss of autonomic warning symptoms",
+            "Hyperglycemic hyperosmolar state (rare in T1DM)",
+            "Electrolyte disturbances during DKA treatment (hypokalemia)"
+          ],
+          "long_term": [
+            "Diabetic nephropathy — leading cause of chronic kidney disease; progression to ESRD",
+            "Diabetic retinopathy — leading cause of blindness in working-age adults; proliferative retinopathy, macular edema",
+            "Diabetic peripheral neuropathy — painful/painless peripheral neuropathy; diabetic foot ulcers; amputation risk",
+            "Diabetic autonomic neuropathy — gastroparesis, orthostatic hypotension, cardiac autonomic neuropathy",
+            "Cardiovascular disease — 2-5x increased risk of MI, stroke, heart failure",
+            "Celiac disease — increased co-occurrence (5% of T1DM)",
+            "Thyroid disease (autoimmune thyroiditis) — 15-30% of T1DM",
+            "Addison's disease — rare but increased autoimmune co-occurrence",
+            "Lipodystrophy at injection sites"
+          ]
+        },
+        "prevention": {
+          "prevention_methods": [
+            "Primary prevention: no established prevention for T1DM autoimmunity onset in general population",
+            "Teplizumab therapy can delay clinical T1DM onset by ~2-3 years in Stage 2 T1DM (seropositive + dysglycemia)",
+            "TrialNet screening for autoantibodies in first-degree relatives",
+            "Prevention of complications through excellent glycemic control from diagnosis"
+          ],
+          "lifestyle_modifications": [
+            "Consistent meal timing and carbohydrate counting",
+            "Regular exercise (aerobic and resistance training with glucose monitoring)",
+            "Blood pressure control (<130/80 mmHg)",
+            "Smoking cessation",
+            "Regular foot examination and foot care",
+            "Annual ophthalmologic examination"
+          ],
+          "screening_recommendations": [
+            "Annual urine albumin-creatinine ratio (ACR) from 5 years after diagnosis",
+            "Annual serum creatinine and eGFR",
+            "Annual dilated ophthalmologic examination (from 5 years after diagnosis or age 10, whichever earlier)",
+            "Annual foot examination and sensory testing (10-g monofilament, vibration)",
+            "Lipid panel annually",
+            "Blood pressure at every visit",
+            "Annual thyroid function testing",
+            "Celiac disease antibody screening at diagnosis and when symptomatic"
+          ]
+        },
+        "prognosis": {
+          "survival_rate": "Modern T1DM management has dramatically improved prognosis. Life expectancy gap between T1DM and general population has narrowed significantly but remains ~10-15 years shorter in some studies. Excellent glycemic control (HbA1c near normal) prevents or delays complications (DCCT/EDIC trial).",
+          "disease_progression": "T1DM is lifelong. Without treatment, DKA occurs within days to weeks. Microvascular complications begin accumulating after 5-10 years of poor glycemic control. Intensive glycemic management can halt or reverse early nephropathy and retinopathy.",
+          "recurrence": "Not applicable as a primary disease occurrence, but islet transplantation recipients can experience graft failure and return to insulin dependence."
+        },
+        "clinical_guidelines": {
+          "WHO": "WHO Global Report on Diabetes (2016); WHO Diabetes Fact Sheet. Available at: https://www.who.int/news-room/fact-sheets/detail/diabetes",
+          "ADA": "American Diabetes Association Standards of Care in Diabetes — 2024 (Diabetes Care, Volume 47 Supplement 1). Section 6: Glycemic Goals and Hypoglycemia; Section 9: Pharmacologic Approaches to Glycemic Treatment. Available at: https://diabetesjournals.org/care"
+        },
+        "research_literature": {
+          "review_articles": [
+            {
+              "title": "Type 1 Diabetes Mellitus",
+              "authors": "DiMeglio LA, Evans-Molina C, Oram RA",
+              "journal": "Lancet",
+              "year": 2018,
+              "pmid": "29916386",
+              "summary": "Comprehensive review of T1DM immunopathogenesis, genetics, diagnosis, and management."
+            },
+            {
+              "title": "Teplizumab and Beta Cell Function in Newly Diagnosed Patients with Type 1 Diabetes",
+              "authors": "Herold KC, et al.",
+              "journal": "New England Journal of Medicine",
+              "year": 2019,
+              "pmid": "31180673",
+              "summary": "Teplizumab preserved C-peptide and beta cell function in new-onset T1DM."
+            },
+            {
+              "title": "The Diabetes Control and Complications Trial/Epidemiology of Diabetes Interventions and Complications (DCCT/EDIC) Study",
+              "authors": "Nathan DM, et al.",
+              "journal": "Diabetes Care",
+              "year": 2014,
+              "pmid": "24356593",
+              "summary": "30-year follow-up demonstrating legacy effect of early intensive glycemic control in T1DM."
+            },
+            {
+              "title": "Artificial Pancreas Technology in Type 1 Diabetes",
+              "authors": "Boughton CK, Hovorka R",
+              "journal": "Journal of Clinical Endocrinology and Metabolism",
+              "year": 2021,
+              "pmid": "33538778",
+              "summary": "Review of closed-loop insulin delivery systems and their clinical performance in T1DM."
+            },
+            {
+              "title": "Genetics of Type 1 Diabetes",
+              "authors": "Pociot F, Lernmark A",
+              "journal": "BMJ",
+              "year": 2016,
+              "pmid": "27515918",
+              "summary": "Review of HLA and non-HLA genetic risk factors for T1DM and their clinical implications."
+            }
+          ],
+          "pathology_reference": "Atkinson MA, Eisenbarth GS, Michels AW. Type 1 Diabetes. Lancet. 2014;383(9911):69-82. PMID: 23890997. (Comprehensive pathophysiology reference)"
+        }
+      },
+
+      "type2_diabetes": {
+        "basic_information": {
+          "disease_name": "Type 2 Diabetes Mellitus (T2DM)",
+          "definition": "Type 2 diabetes mellitus is a chronic metabolic disorder characterized by progressive insulin resistance in peripheral tissues coupled with relative insulin deficiency due to beta cell dysfunction, leading to chronic hyperglycemia.",
+          "overview": "T2DM is the most common form of diabetes, accounting for ~90-95% of all cases worldwide. It is strongly associated with obesity, physical inactivity, and aging. Unlike T1DM, T2DM involves insulin resistance rather than absolute insulin deficiency, and initially can be managed with lifestyle intervention and oral medications before insulin therapy becomes necessary. It is a major driver of cardiovascular disease, kidney failure, blindness, and limb amputation globally."
+        },
+        "causes": {
+          "causes": [
+            "Insulin resistance: impaired insulin signaling in skeletal muscle, liver, and adipose tissue",
+            "Progressive beta cell dysfunction and eventual beta cell failure",
+            "Hepatic glucose overproduction (gluconeogenesis) due to liver insulin resistance",
+            "Abnormal incretin effect (reduced GLP-1 secretion/response)",
+            "Increased glucagon secretion (alpha cell dysfunction)",
+            "Renal glucose reabsorption (increased renal glucose threshold)",
+            "Central nervous system dysregulation of appetite and glucose homeostasis"
+          ],
+          "risk_factors": [
+            "Overweight or obesity (BMI >25 kg/m², or lower thresholds in Asian populations)",
+            "Central/abdominal adiposity (waist circumference >102cm men, >88cm women)",
+            "Physical inactivity",
+            "Age >45 years (risk increases with age)",
+            "Family history of T2DM (first-degree relative)",
+            "History of gestational diabetes or delivery of baby >9 lbs",
+            "Prediabetes (impaired fasting glucose or impaired glucose tolerance)",
+            "Polycystic ovary syndrome (PCOS)",
+            "Hypertension",
+            "Dyslipidemia (low HDL, high triglycerides)",
+            "Metabolic syndrome",
+            "Certain racial/ethnic groups (African American, Latino, Native American, Asian American, Pacific Islander)",
+            "Sleep apnea",
+            "Certain medications (corticosteroids, atypical antipsychotics, thiazide diuretics)"
+          ]
+        },
+        "pathophysiology": {
+          "disease_mechanism": "T2DM results from a complex interplay of insulin resistance and beta cell dysfunction ('ominous octet' by Ralph DeFronzo). Insulin resistance in skeletal muscle reduces glucose uptake after meals. The liver fails to suppress glucose production (gluconeogenesis) despite high insulin levels. Initially, the pancreas compensates by hypersecretion of insulin, but over time beta cells fail due to glucotoxicity, lipotoxicity, endoplasmic reticulum stress, and amyloid deposition. The resulting relative insulin deficiency combined with insulin resistance causes chronic hyperglycemia.",
+          "cellular_changes": [
+            "Defective IRS-1/IRS-2 insulin receptor signaling (serine phosphorylation inhibits signaling)",
+            "Impaired PI3K-AKT pathway activity in muscle and liver",
+            "Increased hepatic glucose production (PEPCK, G6Pase upregulation)",
+            "Ectopic lipid deposition in muscle and liver causing lipotoxicity",
+            "Beta cell amyloid deposition (IAPP/amylin aggregation)",
+            "Beta cell apoptosis from glucotoxicity, lipotoxicity, ER stress",
+            "Reduced beta cell mass (~50% at clinical diagnosis)",
+            "Impaired GLP-1 and GIP incretin responses",
+            "Increased alpha cell glucagon secretion — worsens postprandial hyperglycemia",
+            "Adipose tissue inflammation (M1 macrophage infiltration, pro-inflammatory cytokine secretion: TNF-α, IL-6, IL-1β, resistin)"
+          ]
+        },
+        "classification": {
+          "types": {
+            "Prediabetes": "Impaired Fasting Glucose (IFG): FPG 100-125 mg/dL; Impaired Glucose Tolerance (IGT): 2h OGTT 140-199 mg/dL; HbA1c 5.7-6.4%",
+            "T2DM": "Full type 2 diabetes with hyperglycemia meeting diagnostic thresholds",
+            "MODY": "Maturity-Onset Diabetes of the Young — monogenic diabetes, often misclassified as T2DM; caused by single gene mutations (GCK, HNF1A, HNF4A, etc.)",
+            "Secondary_Diabetes": "Drug-induced (corticosteroids), pancreatic disease (pancreatitis, pancreatectomy), endocrine disorders (Cushing's, acromegaly, pheochromocytoma)"
+          }
+        },
+        "clinical_presentation": {
+          "early_symptoms": [
+            "Often asymptomatic for years — detected on routine screening",
+            "Mild fatigue",
+            "Increased thirst and urination (mild)",
+            "Increased hunger"
+          ],
+          "common_symptoms": [
+            "Polyuria, polydipsia, polyphagia (classic triad; less dramatic than T1DM)",
+            "Weight gain or difficulty losing weight",
+            "Fatigue and lack of energy",
+            "Blurred vision",
+            "Slow-healing wounds or sores",
+            "Recurrent infections (skin, urinary, vaginal yeast infections)",
+            "Numbness/tingling in hands and feet (neuropathy)",
+            "Acanthosis nigricans (darkened skin folds in neck, axilla — sign of insulin resistance)"
+          ],
+          "advanced_symptoms": [
+            "Diabetic foot ulcers or non-healing wounds",
+            "Symptoms of cardiovascular disease (angina, dyspnea)",
+            "Visual loss (retinopathy)",
+            "Edema (nephrotic syndrome from nephropathy)",
+            "Hyperglycemic hyperosmolar state (HHS) — extremely high glucose without ketosis; confusion, coma",
+            "Peripheral arterial disease symptoms (claudication, cold extremities)"
+          ]
+        },
+        "diagnosis": {
+          "physical_examination": [
+            "BMI calculation and abdominal circumference",
+            "Blood pressure measurement",
+            "Skin examination (acanthosis nigricans, skin tags, infections)",
+            "Foot examination (neuropathy, pulses, skin integrity)",
+            "Fundoscopic examination (retinopathy)"
+          ],
+          "laboratory_tests": {
+            "blood_tests": [
+              "Fasting Plasma Glucose (FPG) ≥126 mg/dL (7.0 mmol/L) on two occasions",
+              "2-hour OGTT (75g glucose) ≥200 mg/dL (11.1 mmol/L)",
+              "HbA1c ≥6.5% (48 mmol/mol)",
+              "Random glucose ≥200 mg/dL with symptoms",
+              "C-peptide — normal or elevated (distinguishes from T1DM)",
+              "Lipid panel — triglycerides, HDL, LDL, total cholesterol",
+              "Urine albumin-creatinine ratio (ACR) — nephropathy screening",
+              "Serum creatinine and eGFR — renal function",
+              "Liver function tests (fatty liver is common comorbidity)",
+              "TSH — thyroid disease screening"
+            ],
+            "imaging": [
+              "Carotid intima media thickness (IMT) — cardiovascular risk assessment",
+              "Coronary calcium score — cardiovascular risk stratification",
+              "Renal ultrasound — if significant nephropathy",
+              "Lower extremity Doppler — peripheral arterial disease"
+            ],
+            "biopsy": "Not routinely performed for T2DM diagnosis. Liver biopsy may be considered for NASH/NAFLD assessment.",
+            "histopathological_examination": "Research: islet amyloid polypeptide (IAPP) deposition; reduced beta cell mass; beta cell hypertrophy (compensatory phase); islet fibrosis"
+          }
+        },
+        "histopathology": {
+          "microscopic_findings": [
+            "Islet amyloid deposition (IAPP/amylin) — characteristic finding, present in >90% of T2DM",
+            "Reduced beta cell mass (~40-60% of normal)",
+            "Islet fibrosis",
+            "Beta cell hypertrophy (compensatory phase)",
+            "Relatively preserved alpha cells",
+            "Vacuolar degeneration of beta cells",
+            "Diffuse islet atrophy in long-standing T2DM"
+          ],
+          "tissue_changes": [
+            "Increased adipose tissue infiltration around islets",
+            "Peri-islet fibrosis",
+            "Atherosclerosis in pancreatic vessels",
+            "Exocrine pancreas relatively unaffected (unlike T1DM)",
+            "Liver: hepatic steatosis (NAFLD/NASH) very common comorbidity"
+          ],
+          "cellular_characteristics": [
+            "Beta cells with pale cytoplasm and enlarged ER (ER stress)",
+            "Amyloid plaques replacing islet architecture",
+            "Mitochondrial dysfunction in beta cells",
+            "Absence of significant mononuclear infiltration (unlike T1DM)"
+          ]
+        },
+        "biomarkers": {
+          "diagnostic_biomarkers": [
+            "HbA1c ≥6.5% — gold standard for diagnosis and monitoring",
+            "Fasting plasma glucose ≥126 mg/dL",
+            "2-hour 75g OGTT glucose ≥200 mg/dL",
+            "Fasting insulin and C-peptide — elevated early (insulin resistance), declining later (beta cell failure)",
+            "HOMA-IR (Homeostatic Model Assessment of Insulin Resistance) — research/clinical tool"
+          ],
+          "prognostic_biomarkers": [
+            "HbA1c — glycemic control and complication risk",
+            "Urine albumin-creatinine ratio (ACR) — early nephropathy",
+            "eGFR — renal function and CKD staging",
+            "LDL cholesterol — cardiovascular risk",
+            "Blood pressure — major modifiable cardiovascular risk factor",
+            "Ankle-brachial index (ABI) — peripheral arterial disease",
+            "hs-CRP — cardiovascular inflammation marker",
+            "NT-proBNP/BNP — heart failure risk"
+          ],
+          "genetic_markers": [
+            "TCF7L2 — strongest common genetic variant for T2DM risk",
+            "PPARG (Pro12Ala) — insulin sensitivity gene",
+            "KCNJ11 (E23K) — potassium channel; beta cell insulin secretion",
+            "FTO gene — obesity-associated T2DM risk",
+            "SLC30A8 — zinc transporter; beta cell function",
+            "HNF1A, HNF4A, GCK — MODY genes (monogenic diabetes mimicking T2DM)",
+            "Polygenic Risk Scores (PRS) for T2DM — research use"
+          ]
+        },
+        "treatment": {
+          "first_line_treatment": "Lifestyle intervention (diet modification, weight loss, physical activity) plus Metformin as initial pharmacotherapy (unless contraindicated).",
+          "medications": [
+            "Metformin — first-line; reduces hepatic glucose production; weight-neutral/loss; cardioprotective",
+            "GLP-1 receptor agonists: Semaglutide (Ozempic, Wegovy), Liraglutide (Victoza), Dulaglutide, Tirzepatide (GIP/GLP-1 dual agonist) — weight loss, cardiovascular benefit",
+            "SGLT2 inhibitors: Empagliflozin (Jardiance), Dapagliflozin (Farxiga), Canagliflozin — cardiovascular and renal protection, weight loss",
+            "DPP-4 inhibitors: Sitagliptin (Januvia), Saxagliptin, Linagliptin — weight-neutral",
+            "Sulfonylureas: Glipizide, Glimepiride, Glyburide — insulin secretagogues; hypoglycemia risk; weight gain",
+            "Thiazolidinediones (TZDs): Pioglitazone — improves insulin sensitivity; weight gain; fluid retention",
+            "Insulin: NPH, glargine, detemir, degludec; rapid-acting analogs as needed",
+            "Tirzepatide (Mounjaro) — dual GIP/GLP-1 receptor agonist; superior HbA1c and weight reduction"
+          ],
+          "oral_medications": [
+            "Metformin 500-2000 mg/day (first-line)",
+            "SGLT2 inhibitors — especially if HF, CKD, or CVD present",
+            "GLP-1 RAs — especially if obesity or CVD present",
+            "DPP-4 inhibitors — weight-neutral, well-tolerated",
+            "Sulfonylureas — cost-effective but hypoglycemia risk",
+            "Acarbose (alpha-glucosidase inhibitor) — postprandial glucose control"
+          ],
+          "insulin_therapy": "Basal insulin added when oral agents insufficient (target HbA1c not achieved). Progression to basal-bolus regimen if needed. Insulin degludec (Tresiba) or glargine U-300 (Toujeo) have lower hypoglycemia risk.",
+          "lifestyle_management": [
+            "Medical Nutrition Therapy (MNT): caloric restriction for weight loss; carbohydrate quality and quantity; Mediterranean or DASH diet",
+            "Physical activity: 150 min/week moderate aerobic + 2x/week resistance training",
+            "Weight loss: 5-10% body weight reduction significantly improves glycemia; >15% may achieve remission",
+            "Bariatric/metabolic surgery: for BMI ≥40 or ≥35 with comorbidities; can achieve T2DM remission",
+            "Smoking cessation",
+            "Blood pressure target <130/80 mmHg",
+            "Lipid management: statin therapy for most T2DM adults"
+          ]
+        },
+        "complications": {
+          "short_term": [
+            "Hypoglycemia (from sulfonylureas or insulin)",
+            "Hyperglycemic Hyperosmolar State (HHS) — extremely high glucose (>600 mg/dL), severe dehydration, altered consciousness",
+            "Diabetic Ketoacidosis (DKA) — rare in T2DM but possible especially with SGLT2 inhibitors (euglycemic DKA)",
+            "Medication side effects: lactic acidosis with metformin (rare), UTI/genital infections with SGLT2i"
+          ],
+          "long_term": [
+            "Microvascular: Diabetic nephropathy (leading cause of ESRD), Diabetic retinopathy (leading cause of blindness), Diabetic peripheral and autonomic neuropathy",
+            "Macrovascular: Coronary artery disease/MI, Stroke, Peripheral arterial disease",
+            "Diabetic foot disease: neuropathic/ischemic ulcers, Charcot arthropathy, amputation",
+            "Non-alcoholic fatty liver disease (NAFLD) / NASH / cirrhosis",
+            "Erectile dysfunction and sexual dysfunction",
+            "Increased cancer risk (liver, pancreas, colorectal, breast, endometrial)",
+            "Cognitive decline and dementia",
+            "Obstructive sleep apnea",
+            "Depression and anxiety"
+          ]
+        },
+        "prevention": {
+          "prevention_methods": [
+            "Lifestyle intervention in prediabetes reduces T2DM risk by 58% (Diabetes Prevention Program)",
+            "Metformin therapy in high-risk prediabetes reduces progression",
+            "Weight loss of 5-10% body weight",
+            "Regular physical activity",
+            "Healthy dietary patterns"
+          ],
+          "lifestyle_modifications": [
+            "Mediterranean, DASH, or low-glycemic index diet",
+            "150+ minutes of moderate physical activity per week",
+            "Achieve and maintain healthy body weight",
+            "Reduce sedentary behavior",
+            "Moderate alcohol consumption",
+            "Smoking cessation",
+            "Adequate sleep (7-9 hours)"
+          ],
+          "screening_recommendations": [
+            "Screen all adults ≥35 years with overweight/obesity",
+            "Screen at any age if: BMI ≥25 + one or more risk factors (ADA 2024)",
+            "Testing: FPG, 2h OGTT, or HbA1c",
+            "If normal: rescreen every 3 years; if prediabetes: rescreen annually",
+            "Screen children/adolescents with overweight + risk factors",
+            "Screen gestational diabetes patients within 4-12 weeks postpartum and every 1-3 years thereafter"
+          ]
+        },
+        "prognosis": {
+          "survival_rate": "T2DM significantly reduces life expectancy (average ~10 years reduction without optimal management). Optimal management of glycemia, blood pressure, lipids, and lifestyle can near-normalize cardiovascular risk. Modern therapies (GLP-1 RAs, SGLT2i) have demonstrated cardiovascular and renal mortality benefits.",
+          "disease_progression": "T2DM is progressive: beta cell function declines ~4-6% per year. Most patients require addition of medications over time. After 10 years, many patients need insulin. Complications develop over years of hyperglycemia exposure; microvascular complications can appear even at prediabetes stage.",
+          "recurrence": "T2DM remission is possible with bariatric surgery (50-80% remission at 1 year) or very low-calorie diet (DiRECT trial: 46% remission at 1 year). Remission defined as HbA1c <6.5% off glucose-lowering medications for ≥3 months."
+        },
+        "clinical_guidelines": {
+          "WHO": "WHO Global Report on Diabetes (2016); WHO Diabetes Diagnosis and Classification (2019 Update). Available at: https://www.who.int/publications/i/item/978924151185",
+          "ADA": "American Diabetes Association Standards of Care in Diabetes — 2024, Diabetes Care 47(Suppl 1). Includes: Section 3 (Prevention), Section 8 (Obesity and Weight Management), Section 9 (Pharmacologic Approaches). Available at: https://diabetesjournals.org/care/issue/47/Supplement_1"
+        },
+        "research_literature": {
+          "review_articles": [
+            {
+              "title": "Mechanisms of Type 2 Diabetes Mellitus",
+              "authors": "DeFronzo RA",
+              "journal": "Diabetes",
+              "year": 2009,
+              "pmid": "19228191",
+              "summary": "Landmark review of the 'ominous octet' — eight defects causing T2DM hyperglycemia."
+            },
+            {
+              "title": "Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes (SUSTAIN-6)",
+              "authors": "Marso SP, et al.",
+              "journal": "New England Journal of Medicine",
+              "year": 2016,
+              "pmid": "27633186",
+              "summary": "Semaglutide reduced major cardiovascular events by 26% in T2DM patients with high CV risk."
+            },
+            {
+              "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes (EMPA-REG OUTCOME)",
+              "authors": "Zinman B, et al.",
+              "journal": "New England Journal of Medicine",
+              "year": 2015,
+              "pmid": "26378978",
+              "summary": "Empagliflozin significantly reduced cardiovascular death and hospitalization for heart failure in T2DM."
+            },
+            {
+              "title": "Reduction in the Incidence of Type 2 Diabetes with Lifestyle Intervention or Metformin (DPP)",
+              "authors": "Knowler WC, et al.",
+              "journal": "New England Journal of Medicine",
+              "year": 2002,
+              "pmid": "11832527",
+              "summary": "Landmark DPP trial: lifestyle intervention reduced T2DM risk by 58%; metformin by 31%."
+            },
+            {
+              "title": "Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes (SURPASS-2)",
+              "authors": "Frias JP, et al.",
+              "journal": "New England Journal of Medicine",
+              "year": 2021,
+              "pmid": "34170647",
+              "summary": "Tirzepatide (GIP/GLP-1 dual agonist) achieved superior HbA1c reduction and weight loss vs. semaglutide."
+            }
+          ],
+          "pathology_reference": "Cnop M, Welsh N, Jonas JC, Jörns A, Lenzen S, Eizirik DL. Mechanisms of pancreatic beta-cell death in type 1 and type 2 diabetes: many differences, few similarities. Diabetes. 2005;54 Suppl 2:S97-107. PMID: 16306347."
+        }
+      },
+
+      "gestational_diabetes": {
+        "basic_information": {
+          "disease_name": "Gestational Diabetes Mellitus (GDM)",
+          "definition": "Gestational diabetes mellitus is defined as glucose intolerance with onset or first recognition during pregnancy, typically in the second or third trimester, in women not previously known to have diabetes.",
+          "overview": "GDM is the most common metabolic complication of pregnancy, affecting 6-16% of pregnancies worldwide (WHO estimate). It arises from pregnancy-induced insulin resistance exacerbating pre-existing subclinical metabolic defects in susceptible women. GDM carries significant risks for both mother (pre-eclampsia, cesarean delivery, future T2DM) and fetus/neonate (macrosomia, birth injuries, neonatal hypoglycemia, future obesity and diabetes). Most cases resolve after delivery, but affected women have up to 50% lifetime risk of developing T2DM."
+        },
+        "causes": {
+          "causes": [
+            "Pregnancy-induced insulin resistance (physiological — from placental hormones: human placental lactogen, progesterone, cortisol, estrogen, prolactin)",
+            "Failure of maternal pancreatic beta cells to adequately compensate for increased insulin demand",
+            "Underlying pre-existing insulin resistance unmasked by pregnancy",
+            "Genetic predisposition to beta cell dysfunction"
+          ],
+          "risk_factors": [
+            "Overweight or obesity (BMI >25 kg/m²) before pregnancy",
+            "Maternal age >25-35 years",
+            "Family history of T2DM (first-degree relative)",
+            "Prior history of GDM",
+            "Prior macrosomic baby (birth weight >4 kg)",
+            "Prior stillbirth or fetal loss",
+            "Polycystic ovary syndrome (PCOS)",
+            "Certain ethnic/racial groups (South Asian, East Asian, African American, Hispanic, Native American, Pacific Islander)",
+            "Multiple gestation",
+            "Glucocorticoid use during pregnancy",
+            "Excessive gestational weight gain",
+            "Prediabetes before pregnancy",
+            "Sedentary lifestyle and unhealthy diet"
+          ]
+        },
+        "pathophysiology": {
+          "disease_mechanism": "Normal pregnancy induces progressive insulin resistance beginning in the second trimester, peaking in the third trimester, to ensure adequate glucose supply to the growing fetus. Healthy women compensate through 200-250% increase in insulin secretion. In GDM, beta cells fail to provide adequate insulin secretion to overcome placental hormone-induced insulin resistance (human placental lactogen being the dominant driver). This results in postprandial hyperglycemia that crosses the placenta via glucose transporters, causing fetal hyperinsulinemia and macrosomia.",
+          "cellular_changes": [
+            "Placental hormones activate serine kinases that phosphorylate IRS-1, impairing insulin signaling",
+            "Reduced GLUT4 translocation to skeletal muscle cell membranes (decreased glucose uptake)",
+            "Increased hepatic glucose production despite elevated insulin levels",
+            "Impaired first-phase insulin secretion (earliest detectable beta cell defect)",
+            "Fetal hyperinsulinemia stimulates anabolic growth (macrosomia, organomegaly)",
+            "Adipokine dysregulation: decreased adiponectin, increased resistin, TNF-α, leptin",
+            "Placental inflammation and oxidative stress contributing to insulin resistance"
+          ]
+        },
+        "classification": {
+          "types": {
+            "GDM_Diet_A1": "Class A1 GDM — controlled with diet and lifestyle modification alone; fasting glucose <95 mg/dL and 1h <140 mg/dL and 2h <120 mg/dL after meal; ADA classification.",
+            "GDM_Insulin_A2": "Class A2 GDM — requires insulin or oral hypoglycemic agents to achieve glycemic targets; greater fetal/maternal risk.",
+            "Overt_Diabetes": "Pre-existing undiagnosed diabetes discovered in first trimester — distinguished from GDM by earlier onset and higher hyperglycemia; managed as pregestational diabetes."
+          }
+        },
+        "clinical_presentation": {
+          "early_symptoms": [
+            "Usually asymptomatic — detected on routine prenatal screening (24-28 weeks)",
+            "Mild polydipsia or polyuria (may be attributed to normal pregnancy)",
+            "Increased fatigue"
+          ],
+          "common_symptoms": [
+            "Typically asymptomatic — diagnosed through screening",
+            "Polyuria, polydipsia (if significantly elevated glucose)",
+            "Recurrent vaginal yeast infections",
+            "Fatigue and malaise",
+            "Blurred vision"
+          ],
+          "advanced_symptoms": [
+            "Symptoms related to macrosomic fetus: large fundal height, fetal movement changes",
+            "Signs of pre-eclampsia: hypertension, proteinuria, edema",
+            "Rare: DKA (very rare in GDM, more likely in unrecognized T1DM)",
+            "Fetal complications: decreased fetal movements (fetal distress), polyhydramnios"
+          ]
+        },
+        "diagnosis": {
+          "physical_examination": [
+            "Symphysis-fundal height measurement — large for gestational age (macrosomia)",
+            "Blood pressure assessment — hypertension/pre-eclampsia",
+            "Weight gain monitoring — excessive gestational weight gain",
+            "Edema assessment"
+          ],
+          "laboratory_tests": {
+            "blood_tests": [
+              "One-Step Strategy (IADPSG/WHO): 75g OGTT at 24-28 weeks — GDM diagnosed if: Fasting ≥92 mg/dL (5.1 mmol/L) OR 1h ≥180 mg/dL (10.0 mmol/L) OR 2h ≥153 mg/dL (8.5 mmol/L)",
+              "Two-Step Strategy (ADA/ACOG): Step 1: 50g GCT (non-fasting) — if 1h ≥130/135/140 mg/dL → proceed to Step 2; Step 2: 100g OGTT fasting — GDM if 2+ values meet thresholds (Carpenter-Coustan or NDDG criteria)",
+              "HbA1c at first prenatal visit (if not recently tested) — screen for pre-existing diabetes",
+              "Fasting plasma glucose at first visit — overt diabetes if ≥126 mg/dL",
+              "Urine dipstick for glucose and protein — monitoring during visits",
+              "Complete blood count, thyroid function",
+              "Urine albumin — renal function"
+            ],
+            "imaging": [
+              "Obstetric ultrasound — fetal biometry (estimated fetal weight, abdominal circumference) to detect macrosomia",
+              "Doppler velocimetry — placental function assessment if growth concerns",
+              "Non-stress test (NST) and biophysical profile (BPP) — fetal well-being in poorly controlled GDM"
+            ],
+            "biopsy": "Not applicable in clinical GDM management.",
+            "histopathological_examination": "Placental pathology post-delivery (research): increased syncytiotrophoblast oxidative stress; inflammatory changes; impaired angiogenesis; chorangiosis (increased villous vascularity from chronic hypoxia in uncontrolled GDM)"
+          }
+        },
+        "histopathology": {
+          "microscopic_findings": [
+            "Placenta: chorangiosis (>10 capillaries per villus in >10 villi) — from chronic hyperglycemia-induced hypoxia",
+            "Placental hydrops and edema of villi",
+            "Decidual vasculopathy in severe cases with hypertension",
+            "Increased syncytiotrophoblast apoptosis",
+            "Villous immaturity (relative to gestational age)"
+          ],
+          "tissue_changes": [
+            "Placental enlargement (hyperplacentosis)",
+            "Umbilical cord edema",
+            "Amniotic fluid: polyhydramnios reflected in membrane changes",
+            "Neonatal pancreas: beta cell hyperplasia and hypertrophy (fetal hyperinsulinemia response)"
+          ],
+          "cellular_characteristics": [
+            "Fetal beta cell hyperplasia — compensatory response to maternal hyperglycemia/fetal hyperglycemia",
+            "Maternal islet hypertrophy — compensation for insulin resistance",
+            "Placental trophoblast: altered GLUT1 and GLUT3 expression",
+            "Inflammatory macrophage infiltration in placental villi"
+          ]
+        },
+        "biomarkers": {
+          "diagnostic_biomarkers": [
+            "Fasting plasma glucose — key screening and diagnostic value",
+            "75g OGTT (1h and 2h glucose values) — IADPSG diagnostic criteria",
+            "HbA1c — used first trimester for screening overt diabetes; less reliable during pregnancy due to RBC turnover changes",
+            "Fructosamine — reflects 2-3 week glycemic average; useful when HbA1c unreliable",
+            "C-peptide — reflects residual beta cell function"
+          ],
+          "prognostic_biomarkers": [
+            "Fasting hyperglycemia >95 mg/dL — higher risk of adverse outcomes; likely needs medication",
+            "Degree of hyperglycemia at diagnosis — predictive of insulin requirement",
+            "Gestational weight gain — excess predicts macrosomia",
+            "HbA1c postpartum — predicts future T2DM risk",
+            "Adiponectin levels — low levels predict GDM and future T2DM",
+            "Ferritin — high levels associated with GDM risk",
+            "Vitamin D levels — deficiency associated with GDM"
+          ],
+          "genetic_markers": [
+            "TCF7L2 — strongest T2DM risk gene; also increases GDM risk",
+            "MTNR1B — melatonin receptor; regulates insulin secretion; GDM risk gene",
+            "GCK (glucokinase) — mutations cause MODY2, presenting as GDM",
+            "IRS1 — insulin receptor substrate gene variants",
+            "PPARG, KCNJ11 — overlap with T2DM risk genes",
+            "HLA risk alleles — some GDM cases represent latent T1DM (LADA) onset in pregnancy"
+          ]
+        },
+        "treatment": {
+          "first_line_treatment": "Blood glucose self-monitoring + Medical Nutrition Therapy (MNT) + moderate physical activity. Insulin therapy added if glycemic targets not met within 1-2 weeks on lifestyle alone.",
+          "medications": [
+            "Insulin — gold standard pharmacotherapy in GDM; does not cross placenta; NPH (intermediate-acting) and regular insulin; rapid analogs (Lispro, Aspart) safe in pregnancy",
+            "Metformin — used in some countries (UK, Australia) as oral alternative; crosses placenta; long-term neonatal safety data reassuring but still controversial per ADA",
+            "Glyburide (Glibenclamide) — oral sulfonylurea; does cross placenta; less preferred; associated with higher neonatal hypoglycemia risk"
+          ],
+          "insulin_therapy": "Starting doses based on weight and trimester. Typically: NPH at bedtime for fasting hyperglycemia; rapid-acting analog before meals for postprandial control. Dose adjustment weekly based on glucose logs. Target: Fasting <95 mg/dL (5.3 mmol/L); 1h postmeal <140 mg/dL (7.8 mmol/L); 2h postmeal <120 mg/dL (6.7 mmol/L) — per ADA.",
+          "lifestyle_management": [
+            "Medical Nutrition Therapy: carbohydrate distribution throughout day; avoid refined sugars; adequate protein and healthy fat; 1800-2500 kcal/day adjusted to BMI; carbohydrate 35-45% of calories",
+            "Physical activity: 30 min moderate intensity activity (walking) daily or most days",
+            "Blood glucose self-monitoring: 4-6 times daily (fasting + after meals)",
+            "Weight gain targets: <5 kg additional weight gain if obese",
+            "Continuous glucose monitoring (CGM) in insulin-requiring GDM",
+            "Avoid ketogenic diets during pregnancy"
+          ]
+        },
+        "complications": {
+          "short_term": [
+            "Maternal: Pre-eclampsia (2-4x increased risk), polyhydramnios, cesarean delivery, urinary tract infections, preterm labor",
+            "Fetal/Neonatal: Macrosomia (birthweight >4kg), birth trauma (shoulder dystocia, brachial plexus injury, fractures), neonatal hypoglycemia (most common neonatal complication), neonatal respiratory distress syndrome, neonatal polycythemia, neonatal jaundice (hyperbilirubinemia), intrauterine fetal demise (rare with uncontrolled GDM)",
+            "Iatrogenic preterm birth (induction of labor)",
+            "Maternal hypoglycemia (from insulin therapy)"
+          ],
+          "long_term": [
+            "Maternal: 50% lifetime risk of T2DM; recurrence of GDM in subsequent pregnancies (30-70%); increased metabolic syndrome risk; cardiovascular disease risk",
+            "Offspring: 5-10x increased risk of T2DM and obesity in childhood/adulthood; increased risk of metabolic syndrome; impaired cognitive development if severe uncontrolled GDM; possible increased cardiovascular risk in adulthood (Barker hypothesis/developmental programming)"
+          ]
+        },
+        "prevention": {
+          "prevention_methods": [
+            "Pre-conception weight optimization (achieve healthy BMI before pregnancy)",
+            "Regular physical activity before and during pregnancy",
+            "Healthy diet pre-conception and during pregnancy",
+            "Management of PCOS and prediabetes before conception",
+            "Myo-inositol supplementation (evidence-emerging; may reduce GDM risk in high-risk women)",
+            "Vitamin D supplementation (observational evidence)"
+          ],
+          "lifestyle_modifications": [
+            "Mediterranean-style diet with complex carbohydrates, fiber, healthy fats",
+            "Regular moderate physical activity throughout pregnancy",
+            "Appropriate gestational weight gain per IOM guidelines",
+            "Breastfeeding (reduces postpartum T2DM risk for mother and reduces childhood obesity in offspring)"
+          ],
+          "screening_recommendations": [
+            "Universal screening at 24-28 weeks gestation — WHO, IADPSG, most guidelines",
+            "Early screening at first prenatal visit for high-risk women (BMI >30, prior GDM, strong family history, previous macrosomic baby)",
+            "Postpartum screening: 75g OGTT at 4-12 weeks postpartum (ADA 2024)",
+            "Annual follow-up with HbA1c or FPG for all GDM-affected women",
+            "Lifestyle intervention in GDM-affected women to prevent progression to T2DM",
+            "Offspring monitoring: screen children for obesity and metabolic risk from early childhood"
+          ]
+        },
+        "prognosis": {
+          "survival_rate": "GDM itself is not life-threatening when well-managed. With appropriate treatment, outcomes approach those of non-diabetic pregnancies. Poorly controlled GDM significantly increases risk of stillbirth and neonatal complications.",
+          "disease_progression": "GDM typically resolves after delivery as placental hormones clear. However, it is a sentinel event for future metabolic disease: ~50% of women with GDM will develop T2DM within 5-10 years. Risk is highest in the first 5 years postpartum. Breastfeeding, weight loss, and physical activity reduce conversion risk.",
+          "recurrence": "GDM recurs in 30-70% of subsequent pregnancies. Risk factors for recurrence include: insulin use in prior GDM pregnancy, higher BMI, interpregnancy weight gain, Hispanic ethnicity, and shorter interpregnancy interval."
+        },
+        "clinical_guidelines": {
+          "WHO": "WHO Diagnostic Criteria and Classification of Hyperglycaemia First Detected in Pregnancy (2013); WHO Global Report on Diabetes (2016). Available at: https://www.who.int/publications/i/item/WHO-NMH-MND-13.2",
+          "ADA": "ADA Standards of Care in Diabetes 2024 — Section 15: Management of Diabetes in Pregnancy. Diabetes Care 2024;47(Suppl 1):S282-S294. Available at: https://diabetesjournals.org/care/article/47/Supplement_1/S282"
+        },
+        "research_literature": {
+          "review_articles": [
+            {
+              "title": "Gestational Diabetes Mellitus",
+              "authors": "Plows JF, Stanley JL, Baker PN, Reynolds CM, Vickers MH",
+              "journal": "Nutrients",
+              "year": 2018,
+              "pmid": "30297628",
+              "summary": "Comprehensive review of GDM pathophysiology, diagnosis, management, and short/long-term outcomes."
+            },
+            {
+              "title": "Hyperglycemia and Adverse Pregnancy Outcomes (HAPO Study)",
+              "authors": "HAPO Study Cooperative Research Group",
+              "journal": "New England Journal of Medicine",
+              "year": 2008,
+              "pmid": "18463375",
+              "summary": "Landmark study establishing continuous relationship between maternal glucose and adverse perinatal outcomes, forming the basis of IADPSG diagnostic criteria."
+            },
+            {
+              "title": "Metformin versus Insulin for the Treatment of Gestational Diabetes (MiG Trial)",
+              "authors": "Rowan JA, et al.",
+              "journal": "New England Journal of Medicine",
+              "year": 2008,
+              "pmid": "18463376",
+              "summary": "Metformin was not inferior to insulin for GDM management, with good neonatal outcomes but higher rate of supplemental insulin need."
+            },
+            {
+              "title": "Risk of Type 2 Diabetes after Gestational Diabetes Mellitus: A Systematic Review and Meta-Analysis",
+              "authors": "Bellamy L, Casas JP, Hingorani AD, Williams D",
+              "journal": "Lancet",
+              "year": 2009,
+              "pmid": "19465230",
+              "summary": "GDM is associated with a 7-fold increased risk of developing T2DM; highest risk in first 5 years postpartum."
+            },
+            {
+              "title": "International Association of Diabetes and Pregnancy Study Groups Recommendations on the Diagnosis and Classification of Hyperglycemia in Pregnancy (IADPSG)",
+              "authors": "Metzger BE, et al.",
+              "journal": "Diabetes Care",
+              "year": 2010,
+              "pmid": "20190296",
+              "summary": "IADPSG criteria for GDM diagnosis using one-step 75g OGTT based on HAPO study data."
+            }
+          ],
+          "pathology_reference": "Benirschke K, Burton GJ, Baergen RN. Pathology of the Human Placenta, 6th ed. Springer, 2012. Chapter: Placentas from Diabetic Mothers."
+        }
+      }
+    }
+  },
+
+  "metadata": {
+    "created_date": "2026-06-28",
+    "dataset_purpose": "MedPath-RAG Application — Primary Knowledge Base for MedGemma RAG Pipeline",
+    "folder_structure": {
+      "datasets/cancer/leukemia": "Leukemia dataset",
+      "datasets/cancer/melanoma": "Melanoma dataset",
+      "datasets/cancer/lung_cancer": "Lung Cancer dataset",
+      "datasets/diabetes/type1_diabetes": "Type 1 Diabetes dataset",
+      "datasets/diabetes/type2_diabetes": "Type 2 Diabetes dataset",
+      "datasets/diabetes/gestational_diabetes": "Gestational Diabetes dataset"
+    },
+    "data_coverage_per_disease": {
+      "sections_covered": 14,
+      "sections": [
+        "Basic Information",
+        "Causes & Risk Factors",
+        "Pathophysiology",
+        "Classification",
+        "Clinical Presentation",
+        "Diagnosis",
+        "Histopathology",
+        "Biomarkers",
+        "Treatment",
+        "Complications",
+        "Prevention",
+        "Prognosis",
+        "Clinical Guidelines",
+        "Research Literature"
+      ],
+      "guidelines_per_disease": "1 WHO + 1 ADA/NCI guideline",
+      "pubmed_articles_per_disease": "5 review articles",
+      "pathology_reference_per_disease": "1 standard textbook reference"
+    },
+    "trusted_sources_used": {
+      "WHO": "World Health Organization fact sheets and global reports",
+      "ADA": "American Diabetes Association Standards of Care 2024",
+      "NCI": "National Cancer Institute PDQ Treatment Summaries",
+      "PubMed": "Peer-reviewed articles from NEJM, Lancet, Diabetes Care, Cancer, Blood, etc.",
+      "NCBI": "NCBI Bookshelf references",
+      "Pathology_Textbooks": "WHO Classification of Tumours (5th ed), Weedon's Skin Pathology, Travis et al. Lung Tumours WHO Classification"
+    }
+  }
+}

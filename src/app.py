@@ -1780,7 +1780,7 @@ def main_app():
                             
                         start_time = time.time()
                         try:
-                            r = requests.post(f"{API_URL}/query", json=payload, headers=headers, timeout=180)
+                            r = requests.post(f"{API_URL}/query", json=payload, headers=headers, timeout=200)
                             if r.status_code == 200:
                                 res = r.json()
                                 st.session_state.active_response = res["answer"]

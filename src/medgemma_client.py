@@ -22,7 +22,7 @@ MAX_CHUNK_CHARS = 200
 RAG_TOP_K_IMAGE = 1
 OLLAMA_KEEP_ALIVE = "30m"
 IMAGE_CALL_TIMEOUT = 90
-TEXT_CALL_TIMEOUT = 90
+TEXT_CALL_TIMEOUT = 150
 
 
 def _optimize_image_b64(image_b64: str, max_size: int = MAX_IMAGE_SIDE) -> str:
@@ -190,7 +190,7 @@ class MedGemmaQA:
         )
 
         try:
-            response_text = self._call_ollama(final_prompt, num_predict=512, timeout=90)
+            response_text = self._call_ollama(final_prompt, num_predict=512, timeout=TEXT_CALL_TIMEOUT)
         except requests.exceptions.RequestException as e:
             response_text = (
                 f"Error communicating with local MedGemma (Ollama): {e}\n"
